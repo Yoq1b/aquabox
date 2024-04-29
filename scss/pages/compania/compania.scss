@@ -1,0 +1,97 @@
+@import './header.scss';
+@import './osection1.scss';
+@import './osection2.scss';
+@import './osection3.scss';
+@import './osection4.scss';
+@import './osection5.scss';
+@import './osection6.scss';
+@import './osection7.scss';
+@import './footer.scss';
+
+.big__container{
+    width: 1920px;
+    height: 5032px;
+    top: 8866px;
+    left: -482px;
+    gap: 0px;
+    opacity: 0px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background: #FFFFFF;
+    // border: 1px solid;    
+}
+
+@media only screen and (max-width: 1440px) {
+    .big__container{
+        width: 1440px;
+        height: 3800px;
+        top: 8866px;
+        left: 1543px;
+        gap: 0px;
+        opacity: 0px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        background: rgba(255, 255, 255, 1);
+        // border: 1px solid;   
+    }
+}
+
+@media only screen and (max-width: 1020px) {
+    .big__container{
+        width: 1020px;
+        height: 2759px;
+        top: 8866px;
+        left: 3021px;
+        gap: 0px;
+        opacity: 0px;        
+        margin: 0 auto;
+        margin-bottom: 10px;
+        background: rgba(255, 255, 255, 1);
+        // border: 1px solid;   
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .big__container{
+        width: 768px;
+        height: 2529px;
+        top: 8866px;
+        left: 4128px;
+        gap: 0px;
+        opacity: 0px;            
+        margin: 0 auto;
+        margin-bottom: 10px;
+        background: rgba(255, 255, 255, 1);
+        // border: 1px solid;   
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .big__container{
+        width: 425px;
+        height: 4495px;
+        top: 8866px;
+        left: 4968px;
+        gap: 0px;
+        opacity: 0px;                    
+        margin: 0 auto;
+        margin-bottom: 10px;
+        background: rgba(255, 255, 255, 1);
+        // border: 1px solid;   
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .big__container{
+        width: 375px;
+        height: 3939px;
+        top: 8866px;
+        left: 5432px;
+        gap: 0px;
+        opacity: 0px;                          
+        margin: 0 auto;
+        margin-bottom: 10px;
+        background: rgba(255, 255, 255, 1);
+        // border: 1px solid;   
+    }
+}

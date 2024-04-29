@@ -1,0 +1,463 @@
+.aktualnie {
+  width: 1620px;
+  margin: 0 auto;
+  margin-top: 40px;
+  // border: 1px solid red;
+  border-radius: 18px;
+  background: #f8f9fb;
+  padding: 30px 59px 55px 59px;
+  .aktualnie_title {
+    margin-bottom: 38px;
+    font-family: Open Sans;
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 55.44px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #27478b;
+  }
+  .aktualnie_flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .aktualnie_column {
+      // border: 1px solid red;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .aktualnie_card {
+        margin-bottom: 50px;
+        width: 431px;
+        .card_img {
+          margin-bottom: 21px;
+          width: 100%;
+          height: 327px;
+        }
+        .card_data {
+          margin-bottom: 11px;
+          font-family: Open Sans;
+          font-size: 17px;
+          font-weight: 400;
+          line-height: 23.15px;
+          text-align: left;
+          color: #4b5563;
+        }
+        .card_title {
+          margin-bottom: 13px;
+          font-family: Open Sans;
+          font-size: 27px;
+          font-weight: 600;
+          line-height: 29.7px;
+          letter-spacing: -0.01em;
+          text-align: left;
+          color: #0a1938;
+        }
+        .card_text {
+          font-family: Open Sans;
+          font-size: 17px;
+          font-weight: 400;
+          line-height: 18.7px;
+          text-align: left;
+          color: #4b5563;
+        }
+      }
+    }
+    .display {
+      display: flex;
+    }
+    .aktualnie_hr {
+      height: 1824px;
+      border: 2px solid #4b55634d;
+    }
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .aktualnie {
+    width: 1215px;
+    margin: 0 auto;
+    margin-top: 30px;
+    // border: 1px solid red;
+    border-radius: 14px;
+    background: #f8f9fb;
+    padding: 22px 44px 41px 44px;
+    .aktualnie_title {
+      margin-bottom: 27px;
+      font-family: Open Sans;
+      font-size: 31px;
+      font-weight: 500;
+      line-height: 41px;
+      letter-spacing: -0.01em;
+      text-align: left;
+      color: #27478b;
+    }
+    .aktualnie_flex {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .aktualnie_column {
+        // border: 1px solid red;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .aktualnie_card {
+          margin-bottom: 25px;
+          width: 324px;
+          .card_img {
+            margin-bottom: 16px;
+            width: 100%;
+            height: 245px;
+          }
+          .card_data {
+            margin-bottom: 11px;
+            font-family: Open Sans;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 17px;
+            text-align: left;
+            color: #4b5563;
+          }
+          .card_title {
+            margin-bottom: 13px;
+            font-family: Open Sans;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 22px;
+            letter-spacing: -0.01em;
+            text-align: left;
+            color: #0a1938;
+          }
+          .card_text {
+            font-family: Open Sans;
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 14px;
+            text-align: left;
+            color: #4b5563;
+          }
+        }
+      }
+      .display {
+        display: flex;
+      }
+      .aktualnie_hr {
+        height: 1368px;
+        border: 1.5px solid #4b55634d;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1020px) {
+  .aktualnie {
+    width: 860px;
+    margin: 0 auto;
+    margin-top: 21px;
+    // border: 1px solid red;
+    border-radius: 10px;
+    background: #f8f9fb;
+    padding: 16px 32px 21px 32px;
+    .aktualnie_title {
+      margin-bottom: 21px;
+      font-family: Open Sans;
+      font-size: 23px;
+      font-weight: 500;
+      line-height: 29px;
+      letter-spacing: -0.01em;
+      text-align: left;
+      color: #27478b;
+    }
+    .aktualnie_flex {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .aktualnie_column {
+        // border: 1px solid red;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .aktualnie_card {
+          margin-bottom: 10px;
+          width: 230px;
+          .card_img {
+            margin-bottom: 16px;
+            width: 100%;
+            height: 175px;
+          }
+          .card_data {
+            margin-bottom: 11px;
+            font-family: Open Sans;
+            font-size: 9px;
+            font-weight: 400;
+            line-height: 12px;
+            text-align: left;
+            color: #4b5563;
+          }
+          .card_title {
+            margin-bottom: 13px;
+            font-family: Open Sans;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 15px;
+            letter-spacing: -0.01em;
+            text-align: left;
+            color: #0a1938;
+          }
+          .card_text {
+            font-family: Open Sans;
+            font-size: 10px;
+            font-weight: 400;
+            line-height: 11px;
+            text-align: left;
+            color: #4b5563;
+          }
+        }
+      }
+      .display {
+        display: flex;
+      }
+      .aktualnie_hr {
+        height: 1000px;
+        border: 1.06px solid #4b55634d;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .aktualnie {
+    width: 667px;
+    margin: 0 auto;
+    margin-top: 21px;
+    // border: 1px solid red;
+    border-radius: 10px;
+    background: #f8f9fb;
+    padding: 16px 26px 28px 26px;
+    .aktualnie_title {
+      margin-bottom: 21px;
+      font-family: Open Sans;
+      font-size: 23px;
+      font-weight: 500;
+      line-height: 29px;
+      letter-spacing: -0.01em;
+      text-align: left;
+      color: #27478b;
+    }
+    .aktualnie_flex {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: start;
+      justify-content: space-between;
+      .aktualnie_column {
+        // border: 1px solid red;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .aktualnie_card {
+          margin-bottom: 30px;
+          width: 283px;
+          .card_img {
+            margin-bottom: 16px;
+            width: 100%;
+            height: 214px;
+          }
+          .card_data {
+            margin-bottom: 6px;
+            font-family: Open Sans;
+            font-size: 9px;
+            font-weight: 400;
+            line-height: 12px;
+            text-align: left;
+            color: #4b5563;
+          }
+          .card_title {
+            margin-bottom: 13px;
+            font-family: Open Sans;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 15px;
+            letter-spacing: -0.01em;
+            text-align: left;
+            color: #0a1938;
+          }
+          .card_text {
+            font-family: Open Sans;
+            font-size: 9px;
+            font-weight: 400;
+            line-height: 9px;
+            text-align: left;
+            color: #4b5563;
+          }
+        }
+      }
+      .display {
+        display: none;
+      }
+      .aktualnie_hr {
+        height: 1000px;
+        border: 1.06px solid #4b55634d;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .aktualnie {
+    width: 380px;
+    margin: 0 auto;
+    margin-top: 21px;
+    // border: 1px solid red;
+    border-radius: 10px;
+    background: #f8f9fb;
+    padding: 24px 17px 44px 17px;
+    .aktualnie_title {
+      margin-bottom: 19px;
+      font-family: Open Sans;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 25px;
+      letter-spacing: -0.01em;
+      text-align: left;
+      color: #27478b;
+    }
+    .aktualnie_flex {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: start;
+      justify-content: center;
+      .aktualnie_column {
+        // border: 1px solid red;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .aktualnie_card {
+          margin-bottom: 20px;
+          width: 346px;
+          .card_img {
+            margin-bottom: 16px;
+            width: 100%;
+            height: 262px;
+          }
+          .card_data {
+            margin-bottom: 6px;
+            font-family: Open Sans;
+            font-size: 11px;
+            font-weight: 400;
+            line-height: 14px;
+            text-align: left;
+            color: #4b5563;
+          }
+          .card_title {
+            margin-bottom: 13px;
+            font-family: Open Sans;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 22px;
+            letter-spacing: -0.01em;
+            text-align: left;
+            color: #0a1938;
+          }
+          .card_text {
+            font-family: Open Sans;
+            font-size: 11px;
+            font-weight: 400;
+            line-height: 12px;
+            text-align: left;
+            color: #4b5563;
+          }
+        }
+      }
+      .display {
+        display: none;
+      }
+      .aktualnie_hr {
+        display: none;
+        height: 1000px;
+        border: 1.06px solid #4b55634d;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .aktualnie {
+    width: 335px;
+    margin: 0 auto;
+    margin-top: 18px;
+    // border: 1px solid red;
+    border-radius: 9px;
+    background: #f8f9fb;
+    padding: 25px 14px 24px 14px;
+    .aktualnie_title {
+      margin-bottom: 19px;
+      font-family: Open Sans;
+      font-size: 17px;
+      font-weight: 500;
+      line-height: 19px;
+      letter-spacing: -0.01em;
+      text-align: left;
+      color: #27478b;
+    }
+    .aktualnie_flex {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: start;
+      justify-content: center;
+      .aktualnie_column {
+        // border: 1px solid red;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .aktualnie_card {
+          margin-bottom: 20px;
+          width: 306px;
+          .card_img {
+            margin-bottom: 11px;
+            width: 100%;
+            height: 216px;
+          }
+          .card_data {
+            margin-bottom: 6px;
+            font-family: Open Sans;
+            font-size: 9px;
+            font-weight: 400;
+            line-height: 13px;
+            text-align: left;
+            color: #4b5563;
+          }
+          .card_title {
+            margin-bottom: 12px;
+            font-family: Open Sans;
+            font-size: 17px;
+            font-weight: 600;
+            line-height: 19px;
+            letter-spacing: -0.01em;
+            text-align: left;
+            color: #0a1938;
+          }
+          .card_text {
+            font-family: Open Sans;
+            font-size: 11px;
+            font-weight: 400;
+            line-height: 12px;
+            text-align: left;
+            color: #4b5563;
+          }
+        }
+      }
+      .display {
+        display: none;
+      }
+      .aktualnie_hr {
+        display: none;
+        height: 1000px;
+        border: 1.06px solid #4b55634d;
+      }
+    }
+  }
+}

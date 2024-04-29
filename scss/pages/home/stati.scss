@@ -1,0 +1,736 @@
+.stati {
+  width: 1620px;
+  margin: 0 auto;
+  border-radius: 18px;
+  padding: 38px 38px 39px 40px;
+  background: #f8f9fb;
+  .stati_top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .stati_title {
+      font-family: Open Sans;
+      font-size: 44px;
+      font-weight: 500;
+      line-height: 48.4px;
+      text-align: left;
+      color: #27478b;
+    }
+    .stati_link {
+      font-family: Open Sans;
+      font-size: 27px;
+      font-weight: 600;
+      line-height: 36.77px;
+      text-decoration: underline;
+      color: #27478b;
+    }
+  }
+  .stati_hr {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    width: 100%;
+    border: 2px solid #4b55634d;
+  }
+  .stati_bottom {
+    .stati_card {
+      display: flex;
+      align-items: start;
+      justify-content: space-between;
+      .stati_card_left {
+        .stati_data {
+          font-family: Open Sans;
+          font-size: 27px;
+          font-weight: 400;
+          line-height: 36.77px;
+          color: #4b5563;
+        }
+      }
+      .stati_card_right {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        .stati_card_img {
+          width: 382px;
+          height: 227px;
+        }
+        .stati_right_div {
+          .stati_right_flex {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 250px;
+            .stati_flex_title {
+              font-family: Open Sans;
+              font-size: 27px;
+              font-weight: 600;
+              line-height: 36.77px;
+              text-align: left;
+              color: #4b5563;
+            }
+            .stati_flex_data {
+              display: none;
+              font-family: Open Sans;
+              font-size: 27px;
+              font-weight: 400;
+              line-height: 36.77px;
+              color: #4b5563;
+            }
+            .stati_flex_icon {
+              width: 21px;
+              height: 21px;
+            }
+          }
+          .stati_flex_display_title {
+            display: none;
+            font-family: Open Sans;
+            font-size: 27px;
+            font-weight: 600;
+            line-height: 36.77px;
+            text-align: left;
+            color: #4b5563;
+          }
+          .stati_text {
+            width: 681px;
+            font-family: Open Sans;
+            font-size: 27px;
+            font-weight: 400;
+            line-height: 29.7px;
+            color: #4b5563;
+          }
+        }
+      }
+    }
+  }
+  .stati_bottom_link {
+    margin-top: 38px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-family: Open Sans;
+    font-size: 20.4px;
+    font-weight: 600;
+    line-height: 27.78px;
+    color: #27478b;
+    text-decoration: underline;
+  }
+  .stati_bottom_link:hover {
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .stati {
+    width: 1215px;
+    margin: 0 auto;
+    border-radius: 14px;
+    padding: 28px 31px 30px 31px;
+    background: #f8f9fb;
+    .stati_top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .stati_title {
+        font-family: Open Sans;
+        font-size: 33px;
+        font-weight: 500;
+        line-height: 36px;
+        text-align: left;
+        color: #27478b;
+      }
+      .stati_link {
+        font-family: Open Sans;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 27px;
+        text-decoration: underline;
+        color: #27478b;
+      }
+    }
+    .stati_hr {
+      margin-top: 24px;
+      margin-bottom: 24px;
+      width: 100%;
+      border: 1.5px solid #4b55634d;
+    }
+    .stati_bottom {
+      .stati_card {
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        .stati_card_left {
+          .stati_data {
+            font-family: Open Sans;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 27px;
+            color: #4b5563;
+          }
+        }
+        .stati_card_right {
+          display: flex;
+          align-items: center;
+          gap: 23px;
+          .stati_card_img {
+            width: 286px;
+            height: 170px;
+          }
+          .stati_right_div {
+            .stati_right_flex {
+              margin-bottom: 7px;
+              display: flex;
+              align-items: center;
+              gap: 187px;
+              .stati_flex_title {
+                font-family: Open Sans;
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 27px;
+                text-align: left;
+                color: #4b5563;
+              }
+              .stati_flex_data {
+                display: none;
+                font-family: Open Sans;
+                font-size: 27px;
+                font-weight: 400;
+                line-height: 36.77px;
+                color: #4b5563;
+              }
+              .stati_flex_icon {
+                width: 16px;
+                height: 16px;
+              }
+            }
+            .stati_flex_display_title {
+              display: none;
+              font-family: Open Sans;
+              font-size: 27px;
+              font-weight: 600;
+              line-height: 36.77px;
+              text-align: left;
+              color: #4b5563;
+            }
+            .stati_text {
+              width: 500px;
+              font-family: Open Sans;
+              font-size: 20px;
+              font-weight: 400;
+              line-height: 22px;
+              color: #4b5563;
+            }
+          }
+        }
+      }
+    }
+  }
+  .stati_bottom_link {
+    margin-top: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Open Sans;
+    font-size: 20.4px;
+    font-weight: 600;
+    line-height: 27.78px;
+    color: #27478b;
+    text-decoration: underline;
+  }
+  .stati_bottom_link:hover {
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 1020px) {
+  .stati {
+    width: 860px;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 20px 20px 24px 20px;
+    background: #f8f9fb;
+    .stati_top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .stati_title {
+        font-family: Open Sans;
+        font-size: 23px;
+        font-weight: 500;
+        line-height: 25px;
+        text-align: left;
+        color: #27478b;
+      }
+      .stati_link {
+        font-family: Open Sans;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 19px;
+        text-decoration: underline;
+        color: #27478b;
+      }
+    }
+    .stati_hr {
+      margin-top: 16px;
+      margin-bottom: 16px;
+      width: 100%;
+      border: 1.06px solid #4b55634d;
+    }
+    .stati_bottom {
+      .stati_card {
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        .stati_card_left {
+          .stati_data {
+            font-family: Open Sans;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 19px;
+            color: #4b5563;
+          }
+        }
+        .stati_card_right {
+          display: flex;
+          align-items: center;
+          gap: 16px;
+          .stati_card_img {
+            width: 202px;
+            height: 120px;
+          }
+          .stati_right_div {
+            .stati_right_flex {
+              margin-bottom: 6px;
+              display: flex;
+              align-items: center;
+              gap: 138px;
+              .stati_flex_title {
+                font-family: Open Sans;
+                font-size: 14px;
+                font-weight: 600;
+                line-height: 19px;
+                text-align: left;
+                color: #4b5563;
+              }
+              .stati_flex_data {
+                display: none;
+                font-family: Open Sans;
+                font-size: 27px;
+                font-weight: 400;
+                line-height: 36.77px;
+                color: #4b5563;
+              }
+              .stati_flex_icon {
+                width: 11px;
+                height: 11px;
+              }
+            }
+            .stati_flex_display_title {
+              display: none;
+              font-family: Open Sans;
+              font-size: 27px;
+              font-weight: 600;
+              line-height: 36.77px;
+              text-align: left;
+              color: #4b5563;
+            }
+            .stati_text {
+              width: 361px;
+              font-family: Open Sans;
+              font-size: 14px;
+              font-weight: 400;
+              line-height: 15px;
+              color: #4b5563;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .stati {
+    width: 667px;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 19px 19px 24px 20px;
+    background: #f8f9fb;
+    .stati_top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .stati_title {
+        font-family: Open Sans;
+        font-size: 23px;
+        font-weight: 500;
+        line-height: 25px;
+        text-align: left;
+        color: #27478b;
+      }
+      .stati_link {
+        font-family: Open Sans;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 19px;
+        text-decoration: underline;
+        color: #27478b;
+      }
+    }
+    .stati_hr {
+      margin-top: 16px;
+      margin-bottom: 16px;
+      width: 100%;
+      border: 1.06px solid #4b55634d;
+    }
+    .stati_bottom {
+      .stati_card {
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        .stati_card_left {
+          .stati_data {
+            font-family: Open Sans;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 19px;
+            color: #4b5563;
+          }
+        }
+        .stati_card_right {
+          display: flex;
+          align-items: center;
+          gap: 16px;
+          .stati_card_img {
+            width: 172px;
+            height: 120px;
+          }
+          .stati_right_div {
+            .stati_right_flex {
+              margin-bottom: 6px;
+              display: flex;
+              align-items: center;
+              gap: 87px;
+              .stati_flex_title {
+                font-family: Open Sans;
+                font-size: 14px;
+                font-weight: 600;
+                line-height: 19px;
+                text-align: left;
+                color: #4b5563;
+              }
+              .stati_flex_data {
+                display: none;
+                font-family: Open Sans;
+                font-size: 27px;
+                font-weight: 400;
+                line-height: 36.77px;
+                color: #4b5563;
+              }
+              .stati_flex_icon {
+                width: 11px;
+                height: 11px;
+              }
+            }
+            .stati_flex_display_title {
+              display: none;
+              font-family: Open Sans;
+              font-size: 27px;
+              font-weight: 600;
+              line-height: 36.77px;
+              text-align: left;
+              color: #4b5563;
+            }
+            .stati_text {
+              width: 339px;
+              font-family: Open Sans;
+              font-size: 14px;
+              font-weight: 400;
+              line-height: 15px;
+              color: #4b5563;
+            }
+          }
+        }
+      }
+    }
+    .stati_bottom_link {
+      margin-top: 38px;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      font-family: Open Sans;
+      font-size: 20.4px;
+      font-weight: 600;
+      line-height: 27.78px;
+      color: #27478b;
+      text-decoration: underline;
+    }
+    .stati_bottom_link:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .stati {
+    width: 380px;
+    margin: 0 auto;
+    border-radius: 11px;
+    padding: 22px 11px 40px 11px;
+    background: #f8f9fb;
+    .stati_top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .stati_title {
+        margin-bottom: 24px;
+        font-family: Open Sans;
+        font-size: 29px;
+        font-weight: 500;
+        line-height: 32px;
+        text-align: left;
+        color: #27478b;
+      }
+      .stati_link {
+        display: none;
+        font-family: Open Sans;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 19px;
+        text-decoration: underline;
+        color: #27478b;
+      }
+    }
+    .stati_hr {
+      margin-top: 23px;
+      margin-bottom: 17px;
+      width: 100%;
+      border: 2.27px solid #4b55634d;
+    }
+    .display_hr {
+      display: none;
+    }
+    .stati_bottom {
+      .stati_card {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: space-between;
+        .stati_card_left {
+          .stati_data {
+            display: none;
+            font-family: Open Sans;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 19px;
+            color: #4b5563;
+          }
+        }
+        .stati_card_right {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 16px;
+          .stati_card_img {
+            width: 357px;
+            height: 211px;
+          }
+          .stati_right_div {
+            .stati_right_flex {
+              margin-bottom: 6px;
+              display: flex;
+              align-items: center;
+              // justify-content: space-between;
+              gap: 233px;
+              .stati_flex_title {
+                display: none;
+                font-family: Open Sans;
+                font-size: 14px;
+                font-weight: 600;
+                line-height: 19px;
+                text-align: left;
+                color: #4b5563;
+              }
+              .stati_flex_data {
+                display: flex;
+                font-family: Open Sans;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 27px;
+                color: #4b5563;
+              }
+              .stati_flex_icon {
+                width: 18px;
+                height: 18px;
+              }
+            }
+            .stati_flex_display_title {
+              margin-bottom: 10px;
+              display: flex;
+              font-family: Open Sans;
+              font-size: 20px;
+              font-weight: 600;
+              line-height: 27px;
+              text-align: left;
+              color: #4b5563;
+            }
+            .stati_text {
+              width: 357px;
+              font-family: Open Sans;
+              font-size: 20px;
+              font-weight: 400;
+              line-height: 22px;
+              color: #4b5563;
+            }
+          }
+        }
+      }
+    }
+    .stati_bottom_link {
+      margin-top: 38px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: Open Sans;
+      font-size: 20.4px;
+      font-weight: 600;
+      line-height: 27.78px;
+      color: #27478b;
+      text-decoration: underline;
+    }
+    .stati_bottom_link:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .stati {
+    width: 335px;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 20px 10px 35px 10px;
+    background: #f8f9fb;
+    .stati_top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .stati_title {
+        margin-bottom: 20px;
+        font-family: Open Sans;
+        font-size: 26px;
+        font-weight: 500;
+        line-height: 28px;
+        text-align: left;
+        color: #27478b;
+      }
+      .stati_link {
+        display: none;
+        font-family: Open Sans;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 19px;
+        text-decoration: underline;
+        color: #27478b;
+      }
+    }
+    .stati_hr {
+      margin-top: 15px;
+      margin-bottom: 15px;
+      width: 100%;
+      border: 2px solid #4b55634d;
+    }
+    .display_hr {
+      display: none;
+    }
+    .stati_bottom {
+      .stati_card {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: space-between;
+        .stati_card_left {
+          .stati_data {
+            display: none;
+            font-family: Open Sans;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 19px;
+            color: #4b5563;
+          }
+        }
+        .stati_card_right {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          .stati_card_img {
+            width: 315px;
+            height: 187px;
+          }
+          .stati_right_div {
+            .stati_right_flex {
+              margin-bottom: 6px;
+              display: flex;
+              align-items: center;
+              // justify-content: space-between;
+              gap: 206px;
+              .stati_flex_title {
+                display: none;
+                font-family: Open Sans;
+                font-size: 14px;
+                font-weight: 600;
+                line-height: 19px;
+                text-align: left;
+                color: #4b5563;
+              }
+              .stati_flex_data {
+                display: flex;
+                font-family: Open Sans;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 24px;
+                color: #4b5563;
+              }
+              .stati_flex_icon {
+                width: 16px;
+                height: 16px;
+              }
+            }
+            .stati_flex_display_title {
+              width: 315px;
+              margin-bottom: 8px;
+              display: flex;
+              font-family: Open Sans;
+              font-size: 18px;
+              font-weight: 600;
+              line-height: 24px;
+              text-align: left;
+              color: #4b5563;
+            }
+            .stati_text {
+              width: 315px;
+              font-family: Open Sans;
+              font-size: 18px;
+              font-weight: 400;
+              line-height: 19px;
+              color: #4b5563;
+            }
+          }
+        }
+      }
+    }
+  }
+  .stati_bottom_link {
+    margin-top: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #27478b;
+    text-decoration: underline;
+  }
+  .stati_bottom_link:hover {
+    cursor: pointer;
+  }
+}

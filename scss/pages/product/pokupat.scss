@@ -1,0 +1,762 @@
+.pokupat {
+  margin: 0 auto;
+  margin-top: 58px;
+  margin-bottom: 50px;
+  width: 1620px;
+  // border: 1px solid red;
+  background: #f8f9fb;
+  .frame {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    .pokupat_left {
+      .left_card {
+        width: 795px;
+        height: 476px;
+        border-radius: 23px;
+        background-image: url(../../../pages/product/img/card_backkground.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding: 40px 40px 40px 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .card_top_text {
+          font-family: Open Sans;
+          font-size: 60px;
+          font-weight: 500;
+          line-height: 54px;
+          letter-spacing: -0.01em;
+          text-align: left;
+          color: #fff;
+        }
+        .card_bottom_text {
+          font-family: Open Sans;
+          font-size: 60px;
+          font-weight: 500;
+          line-height: 54px;
+          letter-spacing: -0.01em;
+          text-align: right;
+          color: #fff;
+        }
+      }
+    }
+    .pokupat_right {
+      .left_card {
+        width: 795px;
+        height: 476px;
+        border-radius: 23px;
+        background-image: url(../../../pages/product/img/card_backkground.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding: 40px 40px 40px 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        // border: 1px solid red;
+        .card_top_text {
+          font-family: Open Sans;
+          font-size: 60px;
+          font-weight: 500;
+          line-height: 54px;
+          letter-spacing: -0.01em;
+          text-align: left;
+          color: #fff;
+        }
+        .card_bottom_text {
+          font-family: Open Sans;
+          font-size: 60px;
+          font-weight: 500;
+          line-height: 54px;
+          letter-spacing: -0.01em;
+          text-align: right;
+          color: #fff;
+        }
+      }
+      .right_text {
+        width: 734px;
+        margin-top: 40px;
+        margin-bottom: 24px;
+        font-family: Open Sans;
+        font-size: 27px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: -0.01em;
+        text-align: left;
+        // border: 1px solid red;
+      }
+      .right_bottom_text {
+        margin-bottom: 40px;
+        font-family: Open Sans;
+        font-size: 44px;
+        font-weight: 500;
+        line-height: 44px;
+        letter-spacing: -0.01em;
+        text-align: left;
+        span {
+          color: #27478b;
+        }
+      }
+    }
+  }
+  .pokupat_btn {
+    margin-bottom: 58px;
+    // border: 1px solid red;
+    width: 1620px;
+    height: 87px;
+    border-radius: 18px;
+    background: #27478b;
+    border: 1px solid;
+    font-family: Open Sans;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 29.7px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .pokupat {
+    margin: 0 auto;
+    margin-top: 66px;
+    margin-bottom: 37px;
+    width: 1215px;
+    // border: 1px solid red;
+    background: #f8f9fb;
+    .frame {
+      display: flex;
+      align-items: start;
+      justify-content: space-between;
+      .pokupat_left {
+        .left_card {
+          width: 596px;
+          height: 357px;
+          border-radius: 17px;
+          background-image: url(../../../pages/product/img/card_backkground.png);
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+          padding: 30px 30px 30px 30px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          .card_top_text {
+            font-family: Open Sans;
+            font-size: 45px;
+            font-weight: 500;
+            line-height: 40px;
+            letter-spacing: -0.01em;
+            text-align: left;
+            color: #fff;
+          }
+          .card_bottom_text {
+            font-family: Open Sans;
+            font-size: 45px;
+            font-weight: 500;
+            line-height: 40px;
+            letter-spacing: -0.01em;
+            text-align: right;
+            color: #fff;
+          }
+        }
+      }
+      .pokupat_right {
+        .left_card {
+          width: 596px;
+          height: 357px;
+          border-radius: 17px;
+          background-image: url(../../../pages/product/img/card_backkground.png);
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+          padding: 30px 30px 30px 30px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          // border: 1px solid red;
+          .card_top_text {
+            font-family: Open Sans;
+            font-size: 60px;
+            font-weight: 500;
+            line-height: 54px;
+            letter-spacing: -0.01em;
+            text-align: left;
+            color: #fff;
+          }
+          .card_bottom_text {
+            font-family: Open Sans;
+            font-size: 60px;
+            font-weight: 500;
+            line-height: 54px;
+            letter-spacing: -0.01em;
+            text-align: right;
+            color: #fff;
+          }
+        }
+        .right_text {
+          width: 550px;
+          margin-top: 30px;
+          margin-bottom: 20px;
+          font-family: Open Sans;
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 20px;
+          letter-spacing: -0.01em;
+          text-align: left;
+          // border: 1px solid red;
+        }
+        .right_bottom_text {
+          margin-bottom: 30px;
+          font-family: Open Sans;
+          font-size: 33px;
+          font-weight: 500;
+          line-height: 33px;
+          letter-spacing: -0.01em;
+          text-align: left;
+          span {
+            color: #27478b;
+          }
+        }
+      }
+    }
+    .pokupat_btn {
+      margin-bottom: 43px;
+      // border: 1px solid red;
+      width: 1215px;
+      height: 65px;
+      border-radius: 14px;
+      background: #27478b;
+      border: 1px solid;
+      font-family: Open Sans;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 22px;
+      letter-spacing: -0.01em;
+      text-align: center;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+
+@media only screen and (max-width: 1020px) {
+  .pokupat {
+    margin: 0 auto;
+    margin-top: 21px;
+    margin-bottom: 26px;
+    width: 860px;
+    // border: 1px solid red;
+    background: #f8f9fb;
+    .frame {
+      display: flex;
+      align-items: start;
+      justify-content: space-between;
+      .pokupat_left {
+        .left_card {
+          width: 422px;
+          height: 253px;
+          border-radius: 13px;
+          background-image: url(../../../pages/product/img/card_backkground.png);
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+          padding: 21px 21px 21px 21px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          .card_top_text {
+            font-family: Open Sans;
+            font-size: 32px;
+            font-weight: 500;
+            line-height: 28px;
+            letter-spacing: -0.01em;
+            text-align: left;
+            color: #fff;
+          }
+          .card_bottom_text {
+            font-family: Open Sans;
+            font-size: 32px;
+            font-weight: 500;
+            line-height: 28px;
+            letter-spacing: -0.01em;
+            text-align: right;
+            color: #fff;
+          }
+        }
+      }
+      .pokupat_right {
+        .left_card {
+          width: 422px;
+          height: 253px;
+          border-radius: 13px;
+          background-image: url(../../../pages/product/img/card_backkground.png);
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+          padding: 21px 21px 21px 21px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          // border: 1px solid red;
+          .card_top_text {
+            font-family: Open Sans;
+            font-size: 60px;
+            font-weight: 500;
+            line-height: 54px;
+            letter-spacing: -0.01em;
+            text-align: left;
+            color: #fff;
+          }
+          .card_bottom_text {
+            font-family: Open Sans;
+            font-size: 60px;
+            font-weight: 500;
+            line-height: 54px;
+            letter-spacing: -0.01em;
+            text-align: right;
+            color: #fff;
+          }
+        }
+        .right_text {
+          width: 390px;
+          margin-top: 21px;
+          margin-bottom: 15px;
+          font-family: Open Sans;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 14px;
+          letter-spacing: -0.01em;
+          text-align: left;
+          // border: 1px solid red;
+        }
+        .right_bottom_text {
+          width: 390px;
+          margin-bottom: 22px;
+          font-family: Open Sans;
+          font-size: 23px;
+          font-weight: 500;
+          line-height: 23px;
+          letter-spacing: -0.01em;
+          text-align: left;
+          span {
+            color: #27478b;
+          }
+        }
+      }
+    }
+    .pokupat_btn {
+      margin-bottom: 30px;
+      // border: 1px solid red;
+      width: 860px;
+      height: 46px;
+      border-radius: 10px;
+      background: #27478b;
+      border: 1px solid;
+      font-family: Open Sans;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 15px;
+      letter-spacing: -0.01em;
+      text-align: center;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .pokupat {
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 21px;
+    width: 670px;
+    // border: 1px solid red;
+    background: #f8f9fb;
+    .frame {
+      display: flex;
+      align-items: start;
+      justify-content: space-between;
+      .pokupat_left {
+        .left_card {
+          width: 334px;
+          height: 253 px;
+          border-radius: 13px;
+          background-image: url(../../../pages/product/img/card_backkground.png);
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+          padding: 21px 21px 21px 21px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          .card_top_text {
+            font-family: Open Sans;
+            font-size: 32px;
+            font-weight: 500;
+            line-height: 28px;
+            letter-spacing: -0.01em;
+            text-align: left;
+            color: #fff;
+          }
+          .card_bottom_text {
+            width: 287px;
+            font-family: Open Sans;
+            font-size: 32px;
+            font-weight: 500;
+            line-height: 28px;
+            letter-spacing: -0.01em;
+            text-align: right;
+            color: #fff;
+          }
+        }
+      }
+      .pokupat_right {
+        .left_card {
+          width: 334px;
+          height: 253 px;
+          border-radius: 13px;
+          background-image: url(../../../pages/product/img/card_backkground.png);
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+          padding: 21px 21px 21px 21px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          // border: 1px solid red;
+          .card_top_text {
+            font-family: Open Sans;
+            font-size: 60px;
+            font-weight: 500;
+            line-height: 54px;
+            letter-spacing: -0.01em;
+            text-align: left;
+            color: #fff;
+          }
+          .card_bottom_text {
+            font-family: Open Sans;
+            font-size: 60px;
+            font-weight: 500;
+            line-height: 54px;
+            letter-spacing: -0.01em;
+            text-align: right;
+            color: #fff;
+          }
+        }
+        .right_text {
+          width: 302px;
+          margin-top: 12px;
+          margin-bottom: 8px;
+          font-family: Open Sans;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 14px;
+          letter-spacing: -0.01em;
+          text-align: left;
+          // border: 1px solid red;
+        }
+        .right_bottom_text {
+          width: 312px;
+          margin-bottom: 20px;
+          font-family: Open Sans;
+          font-size: 23px;
+          font-weight: 500;
+          line-height: 23px;
+          letter-spacing: -0.01em;
+          text-align: left;
+          span {
+            color: #27478b;
+          }
+        }
+      }
+    }
+    .pokupat_btn {
+      margin-bottom: 23px;
+      // border: 1px solid red;
+      width: 670px;
+      height: 46px;
+      border-radius: 10px;
+      background: #27478b;
+      border: 1px solid;
+      font-family: Open Sans;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 15px;
+      letter-spacing: -0.01em;
+      text-align: center;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .pokupat {
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 22px;
+    width: 380px;
+    // border: 1px solid red;
+    background: #f8f9fb;
+    .frame {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      justify-content: space-between;
+      .pokupat_left {
+        .left_card {
+          position: relative;
+          width: 378px;
+          height: 258px;
+          border-radius: 14px;
+          background-image: url(../../../pages/product/img/card_backkground.png);
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+          padding: 10px 10px 10px 10px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          .card_top_text {
+            font-family: Open Sans;
+            font-size: 32px;
+            font-weight: 500;
+            line-height: 28px;
+            letter-spacing: -0.01em;
+            text-align: left;
+            color: #fff;
+          }
+          .card_bottom_text {
+            position: absolute;
+            right: 30px;
+            bottom: 30px;
+            // border: 1px solid red;
+            width: 267px;
+            font-family: Open Sans;
+            font-size: 32px;
+            font-weight: 500;
+            line-height: 28px;
+            letter-spacing: -0.01em;
+            text-align: right;
+            color: #fff;
+          }
+        }
+      }
+      .pokupat_right {
+        .left_card {
+          width: 378px;
+          height: 296px;
+          border-radius: 14px;
+          background-image: url(../../../pages/product/img/card_backkground.png);
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+          padding: 10px 10px 10px 10px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          // border: 1px solid red;
+          .card_top_text {
+            font-family: Open Sans;
+            font-size: 60px;
+            font-weight: 500;
+            line-height: 54px;
+            letter-spacing: -0.01em;
+            text-align: left;
+            color: #fff;
+          }
+          .card_bottom_text {
+            font-family: Open Sans;
+            font-size: 60px;
+            font-weight: 500;
+            line-height: 54px;
+            letter-spacing: -0.01em;
+            text-align: right;
+            color: #fff;
+          }
+        }
+        .right_text {
+          width: 342px;
+          margin-top: 14px;
+          margin-bottom: 8px;
+          font-family: Open Sans;
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 20px;
+          letter-spacing: -0.01em;
+          text-align: left;
+          // border: 1px solid red;
+        }
+        .right_bottom_text {
+          width: 335px;
+          margin-bottom: 20px;
+          font-family: Open Sans;
+          font-size: 29px;
+          font-weight: 500;
+          line-height: 29px;
+          letter-spacing: -0.01em;
+          text-align: left;
+          span {
+            color: #27478b;
+          }
+        }
+      }
+    }
+    .pokupat_btn {
+      margin-bottom: 23px;
+      // border: 1px solid red;
+      width: 670px;
+      height: 46px;
+      border-radius: 10px;
+      background: #27478b;
+      border: 1px solid;
+      font-family: Open Sans;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 15px;
+      letter-spacing: -0.01em;
+      text-align: center;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      display: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .pokupat {
+    margin: 0 auto;
+    margin-top: 30px; 
+    margin-bottom: 22px;
+    width: 335px;
+    // border: 1px solid red;
+    background: #f8f9fb;
+    .frame {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      justify-content: space-between;
+      .pokupat_left {
+        .left_card {
+          position: relative;
+          width: 334px;
+          height: 258px;
+          border-radius: 14px;
+          background-image: url(../../../pages/product/img/card_backkground.png);
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+          padding: 10px 10px 10px 10px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          .card_top_text {
+            font-family: Open Sans;
+            font-size: 32px;
+            font-weight: 500;
+            line-height: 28px;
+            letter-spacing: -0.01em;
+            text-align: left;
+            color: #fff;
+          }
+          .card_bottom_text {
+            position: absolute;
+            right: 30px;
+            bottom: 30px;
+            // border: 1px solid red;
+            width: 267px;
+            font-family: Open Sans;
+            font-size: 32px;
+            font-weight: 500;
+            line-height: 28px;
+            letter-spacing: -0.01em;
+            text-align: right;
+            color: #fff;
+          }
+        }
+      }
+      .pokupat_right {
+        .left_card {
+          width: 334px;
+          height: 296px;
+          border-radius: 14px;
+          background-image: url(../../../pages/product/img/card_backkground.png);
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+          padding: 10px 10px 10px 10px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          // border: 1px solid red;
+          .card_top_text {
+            font-family: Open Sans;
+            font-size: 60px;
+            font-weight: 500;
+            line-height: 54px;
+            letter-spacing: -0.01em;
+            text-align: left;
+            color: #fff;
+          }
+          .card_bottom_text {
+            font-family: Open Sans;
+            font-size: 60px;
+            font-weight: 500;
+            line-height: 54px;
+            letter-spacing: -0.01em;
+            text-align: right;
+            color: #fff;
+          }
+        }
+        .right_text {
+          width: 302px;
+          margin-top: 14px;
+          margin-bottom: 8px;
+          font-family: Open Sans;
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 18px;
+          letter-spacing: -0.01em;
+          text-align: left;
+          // border: 1px solid red;
+        }
+        .right_bottom_text {
+          width: 335px;
+          margin-bottom: 20px;
+          font-family: Open Sans;
+          font-size: 26px;
+          font-weight: 500;
+          line-height: 26px;
+          letter-spacing: -0.01em;
+          text-align: left;
+          span {
+            color: #27478b;
+          }
+        }
+      }
+    }
+    .pokupat_btn {
+      margin-bottom: 23px;
+      // border: 1px solid red;
+      width: 670px;
+      height: 46px;
+      border-radius: 10px;
+      background: #27478b;
+      border: 1px solid;
+      font-family: Open Sans;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 15px;
+      letter-spacing: -0.01em;
+      text-align: center;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      display: none;
+    }
+  }
+}

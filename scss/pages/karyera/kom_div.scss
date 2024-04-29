@@ -1,0 +1,128 @@
+.komanda_div {
+  width: 380px;
+  height: 322px;
+  border-radius: 10px;
+  background-color: #d9d9d9;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  .right_text {
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #27478b;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .komanda_div {
+    display: none;
+    width: 380px;
+    height: 322px;
+    border-radius: 10px;
+    background-color: #d9d9d9;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    .right_text {
+      font-family: Open Sans;
+      font-size: 30px;
+      font-weight: 600;
+      line-height: 30px;
+      letter-spacing: -0.01em;
+      text-align: left;
+      color: #27478b;
+    }
+  }
+}
+
+@media only screen and (max-width: 1020px) {
+  .komanda_div {
+    display: none;
+    width: 380px;
+    height: 322px;
+    border-radius: 10px;
+    background-color: #d9d9d9;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    .right_text {
+      font-family: Open Sans;
+      font-size: 30px;
+      font-weight: 600;
+      line-height: 30px;
+      letter-spacing: -0.01em;
+      text-align: left;
+      color: #27478b;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .komanda_div {
+    display: none;
+    width: 380px;
+    height: 322px;
+    border-radius: 10px;
+    background-color: #d9d9d9;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    .right_text {
+      font-family: Open Sans;
+      font-size: 30px;
+      font-weight: 600;
+      line-height: 30px;
+      letter-spacing: -0.01em;
+      text-align: left;
+      color: #27478b;
+    }
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .komanda_div {
+    margin-bottom: 21px;
+    width: 380px;
+    height: 322px;
+    border-radius: 10px;
+    background-color: #d9d9d9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .right_text {
+      font-family: Open Sans;
+      font-size: 30px;
+      font-weight: 600;
+      line-height: 30px;
+      letter-spacing: -0.01em;
+      text-align: left;
+      color: #27478b;
+    }
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .komanda_div {
+    margin-bottom: 18px;
+    width: 335px;
+    height: 285px;
+    border-radius: 9px;
+    background-color: #d9d9d9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .right_text {
+      font-family: Open Sans;
+      font-size: 26px;
+      font-weight: 600;
+      line-height: 26px;
+      letter-spacing: -0.01em;
+      text-align: left;
+      color: #27478b;
+    }
+  }
+}

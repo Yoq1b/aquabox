@@ -1,0 +1,680 @@
+.componiaa {
+  width: 1620px;
+  // height: 587px;
+  margin: 0 auto;
+  background: #f8f9fb;
+  border-radius: 18px;
+  border: 1px solid white;
+  margin-bottom: 71px;
+  .componiaa__top {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 93px;
+    padding-left: 60px;
+    padding-right: 85px;
+    //    height: 500px;
+    //    border: 1px solid white;
+    .componiaa__left {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 270px;
+      height: 44px;
+      // border: 1px solid white;
+      h2 {
+        font-family: "Open sans";
+        font-size: 44px;
+        font-weight: 500;
+        line-height: 44px;
+        letter-spacing: -0.01em;
+        text-align: left;
+        color: #0a1938;
+      }
+    }
+    .componiaa__right {
+      display: flex;
+      align-items: center;
+      width: 760px;
+      height: 308px;
+      top: 1106px;
+      left: 971px;
+      gap: 0px;
+      opacity: 0px;
+      // border: 1px solid white;
+      h2 {
+        font-family: "Open Sans";
+        font-size: 44px;
+        font-weight: 500;
+        line-height: 44px;
+        letter-spacing: -0.01em;
+        text-align: left;
+        span {
+          font-family: "Open Sans";
+          font-size: 44px;
+          font-weight: 500;
+          line-height: 44px;
+          letter-spacing: -0.01em;
+          text-align: left;
+          color: #27478b;
+        }
+      }
+    }
+  }
+  .btn__container {
+    padding-left: 60px;
+    padding-top: 85px;
+    margin-bottom: 35px;
+    .btn {
+      padding-left: 60px;
+      width: 1500px;
+      height: 87px;
+      top: 1471px;
+      left: 210px;
+      gap: 0px;
+      border-radius: 18px;
+      opacity: 0px;
+      background: #27478b;
+      // border: none;
+      border: 1px solid white;
+      h2 {
+        font-family: "Open sans";
+        font-size: 27px;
+        font-weight: 600;
+        line-height: 29.7px;
+        letter-spacing: -0.01em;
+        text-align: center;
+        color: #ffffff;
+      }
+    }
+    .btn:hover {
+      padding-left: 60px;
+      width: 1500px;
+      height: 87px;
+      top: 1471px;
+      left: 210px;
+      gap: 0px;
+      border-radius: 18px;
+      opacity: 0px;
+      background: #838282;
+      border: none;
+      h2 {
+        font-family: "Open sans";
+        font-size: 27px;
+        font-weight: 600;
+        line-height: 29.7px;
+        letter-spacing: -0.01em;
+        text-align: center;
+        color: #ffffff;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .componiaa {
+    width: 1215px;
+    border-radius: 18px;
+    margin: 0 auto;
+    border: 1px solid white;
+    background: #f8f9fb;
+    margin-bottom: 59px;
+    .componiaa__top {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 69px;
+      padding-left: 44px;
+      padding-right: 85px;
+      //    height: 500px;
+      //    border: 1px solid white;
+      .componiaa__left {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 202px;
+        height: 33px;
+        // border: 1px solid white;
+        h2 {
+          font-family: "Open sans";
+          font-size: 33px;
+          font-weight: 500;
+          line-height: 33px;
+          letter-spacing: -0.01em;
+          text-align: left;
+          color: #0a1938;
+        }
+      }
+      .componiaa__right {
+        display: flex;
+        align-items: center;
+        width: 480px;
+        // border: 1px solid white;
+        h2 {
+          font-family: "Open Sans";
+          font-size: 33px;
+          font-weight: 500;
+          line-height: 33px;
+          letter-spacing: -0.01em;
+          text-align: left;
+          span {
+            font-family: "Open Sans";
+            font-size: 33px;
+            font-weight: 500;
+            line-height: 33px;
+            letter-spacing: -0.01em;
+            text-align: left;
+            color: #27478b;
+          }
+        }
+      }
+    }
+    .btn__container {
+      padding-left: 44px;
+      padding-top: 43px;
+      .btn {
+        padding-left: 60px;
+        width: 1125px;
+        height: 65px;
+        top: 1103px;
+        left: 157px;
+        gap: 0px;
+        border-radius: 18px;
+        opacity: 0px;
+        background: #27478b;
+        // border: none;
+
+        h2 {
+          font-family: "Open sans";
+          font-size: 20.25px;
+          font-weight: 600;
+          line-height: 22.27px;
+          letter-spacing: -0.01em;
+          text-align: center;
+          color: #ffffff;
+        }
+      }
+      .btn:hover {
+        padding-left: 60px;
+        width: 1125px;
+        height: 65px;
+        top: 1103px;
+        left: 157px;
+        gap: 0px;
+        border-radius: 18px;
+        opacity: 0px;
+        // border: none;
+        background: #838282;
+        border: none;
+        h2 {
+          font-family: "Open sans";
+          font-size: 20.25px;
+          font-weight: 600;
+          line-height: 22.27px;
+          letter-spacing: -0.01em;
+          text-align: center;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1020px) {
+  .componiaa {
+    width: 860.63px;
+    height: 308.13px;
+    border-radius: 18px;
+    margin: 0 auto;
+    border: 1px solid white;
+    background: #f8f9fb;
+    margin-bottom: 37px;
+    .componiaa__top {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 48px;
+      padding-left: 31px;
+      padding-right: 45px;
+      //    height: 500px;
+      //    border: 1px solid white;
+      .componiaa__left {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 145px;
+        // height: 23px;
+        // border: 1px solid white;
+        h2 {
+          font-family: "Open sans";
+          font-size: 23.38px;
+          font-weight: 500;
+          line-height: 23.38px;
+          letter-spacing: -0.01em;
+          text-align: left;
+          color: #0a1938;
+        }
+      }
+      .componiaa__right {
+        display: flex;
+        align-items: center;
+        width: 338.67px;
+        height: 171px;
+        // border: 1px solid white;
+        h2 {
+          font-family: "Open Sans";
+          font-size: 23.38px;
+          font-weight: 500;
+          line-height: 23.38px;
+          letter-spacing: -0.01em;
+          text-align: left;
+          span {
+            font-family: "Open Sans";
+            font-size: 23.38px;
+            font-weight: 500;
+            line-height: 23.38px;
+            letter-spacing: -0.01em;
+            text-align: left;
+            color: #27478b;
+          }
+        }
+      }
+    }
+    .btn__container {
+      padding-left: 31px;
+      padding-top: 30px;
+      .btn {
+        width: 796.88px;
+        height: 46.04px;
+        border-radius: 18px;
+        opacity: 0px;
+        background: #27478b;
+        // border: none;
+
+        h2 {
+          font-family: "Open sans";
+          font-size: 14.34px;
+          font-weight: 600;
+          line-height: 15.78px;
+          letter-spacing: -0.01em;
+          text-align: center;
+          color: #ffffff;
+        }
+      }
+      .btn:hover {
+        width: 796.88px;
+        height: 46.04px;
+        border-radius: 18px;
+        opacity: 0px;
+        border-radius: 18px;
+        // border: none;
+        background: #838282;
+        border: none;
+        h2 {
+          font-family: "Open sans";
+          font-size: 14.34px;
+          font-weight: 600;
+          line-height: 15.78px;
+          letter-spacing: -0.01em;
+          text-align: center;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .componiaa {
+    width: 666px;
+    height: 316px;
+    border-radius: 18px;
+    margin: 0 auto;
+    background: #f8f9fb;
+    margin-bottom: 40px;
+    .componiaa__top {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 60px;
+      padding-left: 20px;
+      padding-right: 11px;
+      //    height: 500px;
+      //    border: 1px solid white;
+      .componiaa__left {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 150px;
+        height: 23px;
+        top: 507px;
+        left: 70px;
+        gap: 0px;
+        opacity: 0px;
+        // height: 23px;
+        // border: 1px solid white;
+        h2 {
+          font-family: "Open sans";
+          font-size: 23.38px;
+          font-weight: 500;
+          line-height: 23.38px;
+          letter-spacing: -0.01em;
+          text-align: left;
+          color: #0a1938;
+        }
+      }
+      .componiaa__right {
+        display: flex;
+        align-items: center;
+        width: 346.67px;
+        height: 161px;
+        top: 507px;
+        left: 325px;
+        gap: 0px;
+        opacity: 0px;
+        // border: 1px solid white;
+        h2 {
+          font-family: "Open Sans";
+          font-size: 23.38px;
+          font-weight: 500;
+          line-height: 23.38px;
+          letter-spacing: -0.01em;
+          text-align: left;
+          span {
+            font-family: "Open Sans";
+            font-size: 23.38px;
+            font-weight: 500;
+            line-height: 23.38px;
+            letter-spacing: -0.01em;
+            text-align: left;
+            color: #27478b;
+          }
+        }
+      }
+    }
+    .btn__container {
+      padding-left: 20px;
+      padding-top: 28px;
+      .btn {
+        width: 629px;
+        height: 46px;
+        border-radius: 18px;
+        opacity: 0px;
+        background: #27478b;
+        // border: none;
+
+        h2 {
+          font-family: "Open sans";
+          font-size: 14.34px;
+          font-weight: 600;
+          line-height: 15.78px;
+          letter-spacing: -0.01em;
+          text-align: center;
+          color: #ffffff;
+        }
+      }
+      .btn:hover {
+        width: 629px;
+        height: 46px;
+        opacity: 0px;
+        border-radius: 18px;
+        // border: none;
+        background: #838282;
+        border: none;
+        h2 {
+          font-family: "Open sans";
+          font-size: 14.34px;
+          font-weight: 600;
+          line-height: 15.78px;
+          letter-spacing: -0.01em;
+          text-align: center;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .componiaa {
+    width: 379.66px;
+    height: 616.8px;
+    border-radius: 18px;
+    margin: 0 auto;
+    background: #f8f9fb;
+    border: 1px solid white;
+    margin-bottom: 45px;
+    .componiaa__top {
+      display: flex;
+      flex-direction: column;
+      padding-top: 120px;
+      padding-left: 10px;
+      padding-right: 31px;
+      padding-bottom: 0px;
+      //    height: 500px;
+      //    border: 1px solid ;
+      .componiaa__left {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 178px;
+        height: 29px;
+        top: 767.26px;
+        left: 32.87px;
+        gap: 0px;
+        opacity: 0px;
+        // height: 23px;
+        // border: 1px solid ;
+        h2 {
+          font-family: "Open sans";
+          font-size: 29px;
+          font-weight: 500;
+          line-height: 29px;
+          letter-spacing: -0.01em;
+          text-align: left;
+          color: #0a1938;
+        }
+      }
+      .componiaa__right {
+        display: flex;
+        align-items: center;
+        width: 365.86px;
+        height: 290px;
+        top: 819.4px;
+        left: 31.73px;
+        gap: 0px;
+        opacity: 0px;
+        margin-top: 30px;
+        // border: 1px solid;
+        h2 {
+          font-family: "Open Sans";
+          font-size: 29px;
+          font-weight: 500;
+          line-height: 29px;
+          letter-spacing: -0.01em;
+          text-align: left;
+          span {
+            font-family: "Open Sans";
+            font-size: 29px;
+            font-weight: 500;
+            line-height: 29px;
+            letter-spacing: -0.01em;
+            text-align: left;
+            color: #27478b;
+          }
+        }
+      }
+    }
+    .btn__container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-left: 11px;
+      padding-top: 0px;
+      padding-right: 11px;
+      padding-bottom: 0px;
+      margin-top: 36px;
+      // border: 1px solid;
+      a {
+        list-style: none;
+        text-decoration: none;
+      }
+      .btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 357px;
+
+        height: 73.67px;
+        border-radius: 18px;
+        background: #27478b;
+        padding: 0px;
+        // border: none;
+
+        h2 {
+          font-family: "Open sans";
+          font-size: 20.4px;
+          font-weight: 600;
+          line-height: 22.44px;
+          color: #ffffff;
+        }
+      }
+      .btn:hover {
+        width: 357px;
+        height: 73.67px;
+        opacity: 0px;
+        border-radius: 18px;
+        // border: none;
+        background: #838282;
+        border: none;
+        padding: 0px;
+        h2 {
+          font-family: "Open sans";
+          font-size: 20.4px;
+          font-weight: 600;
+          line-height: 22.44px;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .componiaa {
+    width: 335px;
+    height: 560px;
+    border-radius: 18px;
+    margin: 0 auto;
+    background: #f8f9fb;
+    border: 1px solid white;
+    margin-bottom: 40px;
+    .componiaa__top {
+      display: flex;
+      flex-direction: column;
+      padding-top: 120px;
+      padding-left: 5px;
+      padding-right: 28px;
+      padding-bottom: 0px;
+      //    height: 500px;
+      //    border: 1px solid ;
+      .componiaa__left {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 164px;
+        height: 26px;
+        top: 677px;
+        left: 29px;
+        gap: 0px;
+        opacity: 0px;
+        // height: 23px;
+        // border: 1px solid ;
+        h2 {
+          font-family: "Open sans";
+          font-size: 26px;
+          font-weight: 500;
+          line-height: 26px;
+          letter-spacing: -0.01em;
+          text-align: left;
+          color: #0a1938;
+        }
+      }
+      .componiaa__right {
+        display: flex;
+        align-items: center;
+        width: 325.5px;
+        height: 260px;
+        margin-top: 30px;
+        border: 0.01px solid #f8f9fb;
+        h2 {
+          font-family: "Open Sans";
+          font-size: 26px;
+          font-weight: 500;
+          line-height: 26px;
+          text-align: left;
+          span {
+            font-family: "Open Sans";
+            font-size: 26px;
+            font-weight: 500;
+            line-height: 26px;
+            text-align: left;
+            color: #27478b;
+          }
+        }
+      }
+    }
+    .btn__container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-left: 10px;
+      padding-top: 0px;
+      padding-right: 10px;
+      padding-bottom: 0px;
+      margin-top: 28px;
+      // border: 1px solid;
+      a {
+        list-style: none;
+        text-decoration: none;
+      }
+      .btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 315px;
+
+        height: 65px;
+        border-radius: 18px;
+        background: #27478b;
+        padding: 0px;
+        // border: none;
+
+        h2 {
+          font-family: "Open sans";
+          font-size: 18px;
+          font-weight: 600;
+          line-height: 19.8px;
+          letter-spacing: -0.01em;
+          text-align: center;
+          color: #ffffff;
+        }
+      }
+      .btn:hover {
+        width: 315px;
+        height: 65px;
+        opacity: 0px;
+        border-radius: 18px;
+        // border: none;
+        background: #838282;
+        border: none;
+        padding: 0px;
+        h2 {
+          font-family: "Open sans";
+          font-size: 18px;
+          font-weight: 600;
+          line-height: 19.8px;
+          letter-spacing: -0.01em;
+          text-align: center;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}

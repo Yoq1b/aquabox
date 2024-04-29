@@ -1,0 +1,846 @@
+.zakas {
+  width: 1620px;
+  margin: 0 auto;
+  margin-bottom: 70px;
+  border-radius: 18px;
+  padding: 34px;
+  background-color: #27478b;
+  .zakas_top_flex {
+    margin-bottom: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .zakas_titles {
+      .zakas_title {
+        margin-bottom: 8px;
+        font-family: Open Sans;
+        font-size: 44px;
+        font-weight: 500;
+        line-height: 48px;
+        text-align: left;
+        color: white;
+      }
+      .zakas_text {
+        font-family: Open Sans;
+        font-size: 27px;
+        font-weight: 600;
+        line-height: 36.77px;
+        color: #e3ecff;
+        text-decoration: underline;
+      }
+    }
+    .zakas_button {
+      width: 764px;
+      height: 93px;
+      padding-left: 21px;
+      padding-right: 36px;
+      border-radius: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: #e3ecff;
+      .zakas_button_text {
+        font-family: Open Sans;
+        font-size: 27px;
+        font-weight: 600;
+        line-height: 29.7px;
+        text-align: left;
+        color: #27478b;
+      }
+      .zakas_btn_icon {
+        width: 21px;
+        height: 21px;
+      }
+    }
+    .zakas_button:hover {
+      cursor: pointer;
+      background: #d7d7d8;
+    }
+  }
+  .zakas_cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .zakas_card {
+      width: 358px;
+      height: 430px;
+      padding: 11px 12px 28px 12px;
+      border-radius: 18px;
+      background-color: white;
+      .zakas_card_img {
+        width: 100%;
+        height: 300px;
+        margin-bottom: 13px;
+      }
+      .zakas_card_title {
+        margin-bottom: 9px;
+        font-family: Open Sans;
+        font-size: 27px;
+        font-weight: 600;
+        line-height: 29.7px;
+        text-align: left;
+        color: #27478b;
+      }
+      .zakas_card_text {
+        width: 310px;
+        font-family: Open Sans;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 18.7px;
+        text-align: left;
+        color: #4b5563;
+      }
+    }
+  }
+  .zakas_media_text {
+    margin-bottom: 25px;
+    text-align: center;
+    display: none;
+    font-family: Open Sans;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 36.77px;
+    color: #e3ecff;
+    text-decoration: underline;
+  }
+  .zakas_media_button {
+    width: 357px;
+    height: 74px;
+    padding-left: 21px;
+    padding-right: 25px;
+    border-radius: 18px;
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    background: #e3ecff;
+    :hover {
+      cursor: pointer;
+    }
+    .zakas_button_text {
+      font-family: Open Sans;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 22px;
+      text-align: left;
+      color: #27478b;
+    }
+    .zakas_btn_icon {
+      width: 18px;
+      height: 18px;
+    }
+  }
+  .zakas_media_button:hover {
+    cursor: pointer;
+    background: #d7d7d8;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .zakas {
+    width: 1215px;
+    margin: 0 auto;
+    margin-bottom: 53px;
+    border-radius: 14px;
+    padding: 25px;
+    background-color: #27478b;
+    .zakas_top_flex {
+      margin-bottom: 26px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .zakas_titles {
+        .zakas_title {
+          margin-bottom: 7px;
+          font-family: Open Sans;
+          font-size: 33px;
+          font-weight: 500;
+          line-height: 36px;
+          text-align: left;
+          color: white;
+        }
+        .zakas_text {
+          font-family: Open Sans;
+          font-size: 20px;
+          font-weight: 600;
+          line-height: 27px;
+          color: #e3ecff;
+          text-decoration: underline;
+        }
+      }
+      .zakas_button {
+        width: 573px;
+        height: 70px;
+        padding-left: 16px;
+        padding-right: 26px;
+        border-radius: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: #e3ecff;
+        .zakas_button_text {
+          font-family: Open Sans;
+          font-size: 20px;
+          font-weight: 600;
+          line-height: 22px;
+          text-align: left;
+          color: #27478b;
+        }
+        .zakas_btn_icon {
+          width: 16px;
+          height: 16px;
+        }
+      }
+      .zakas_button:hover {
+        cursor: pointer;
+        background: #d7d7d8;
+      }
+    }
+    .zakas_cards {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .zakas_card {
+        width: 268px;
+        height: 322px;
+        padding: 11px 12px 28px 12px;
+        border-radius: 18px;
+        background-color: white;
+        .zakas_card_img {
+          width: 100%;
+          height: 224px;
+          margin-bottom: 11px;
+        }
+        .zakas_card_title {
+          margin-bottom: 7px;
+          font-family: Open Sans;
+          font-size: 20px;
+          font-weight: 600;
+          line-height: 22px;
+          text-align: left;
+          color: #27478b;
+        }
+        .zakas_card_text {
+          width: 230px;
+          font-family: Open Sans;
+          font-size: 13px;
+          font-weight: 400;
+          line-height: 14px;
+          text-align: left;
+          color: #4b5563;
+        }
+      }
+    }
+    .zakas_media_text {
+      margin-bottom: 25px;
+      text-align: center;
+      display: none;
+      font-family: Open Sans;
+      font-size: 27px;
+      font-weight: 600;
+      line-height: 36.77px;
+      color: #e3ecff;
+      text-decoration: underline;
+    }
+    .zakas_media_button {
+      width: 357px;
+      height: 74px;
+      padding-left: 21px;
+      padding-right: 25px;
+      border-radius: 18px;
+      display: none;
+      align-items: center;
+      justify-content: space-between;
+      background: #e3ecff;
+      :hover {
+        cursor: pointer;
+      }
+      .zakas_button_text {
+        font-family: Open Sans;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 22px;
+        text-align: left;
+        color: #27478b;
+      }
+      .zakas_btn_icon {
+        width: 18px;
+        height: 18px;
+      }
+    }
+    .zakas_media_button:hover {
+      cursor: pointer;
+      background: #d7d7d8;
+    }
+  }
+}
+
+@media only screen and (max-width: 1020px) {
+  .zakas {
+    width: 860px;
+    margin: 0 auto;
+    margin-bottom: 38px;
+    border-radius: 10px;
+    padding: 18px;
+    background-color: #27478b;
+    .zakas_top_flex {
+      margin-bottom: 26px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .zakas_titles {
+        .zakas_title {
+          margin-bottom: 5px;
+          font-family: Open Sans;
+          font-size: 23px;
+          font-weight: 500;
+          line-height: 25px;
+          text-align: left;
+          color: white;
+        }
+        .zakas_text {
+          font-family: Open Sans;
+          font-size: 14px;
+          font-weight: 600;
+          line-height: 19px;
+          color: #e3ecff;
+          text-decoration: underline;
+        }
+      }
+      .zakas_button {
+        width: 405px;
+        height: 50px;
+        padding-left: 11px;
+        padding-right: 19px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: #e3ecff;
+        .zakas_button_text {
+          font-family: Open Sans;
+          font-size: 14px;
+          font-weight: 600;
+          line-height: 15px;
+          text-align: left;
+          color: #27478b;
+        }
+        .zakas_btn_icon {
+          width: 11px;
+          height: 11px;
+        }
+      }
+      .zakas_button:hover {
+        cursor: pointer;
+        background: #d7d7d8;
+      }
+    }
+    .zakas_cards {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .zakas_card {
+        width: 190px;
+        height: 228px;
+        padding: 6px 6px 15px 6px;
+        border-radius: 10px;
+        background-color: white;
+        .zakas_card_img {
+          width: 100%;
+          height: 158px;
+          margin-bottom: 8px;
+        }
+        .zakas_card_title {
+          margin-bottom: 7px;
+          font-family: Open Sans;
+          font-size: 14px;
+          font-weight: 600;
+          line-height: 15px;
+          text-align: left;
+          color: #27478b;
+        }
+        .zakas_card_text {
+          width: 165px;
+          font-family: Open Sans;
+          font-size: 10px;
+          font-weight: 400;
+          line-height: 11px;
+          text-align: left;
+          color: #4b5563;
+        }
+      }
+    }
+    .zakas_media_text {
+      margin-bottom: 25px;
+      text-align: center;
+      display: none;
+      font-family: Open Sans;
+      font-size: 27px;
+      font-weight: 600;
+      line-height: 36.77px;
+      color: #e3ecff;
+      text-decoration: underline;
+    }
+    .zakas_media_button {
+      width: 357px;
+      height: 74px;
+      padding-left: 21px;
+      padding-right: 25px;
+      border-radius: 18px;
+      display: none;
+      align-items: center;
+      justify-content: space-between;
+      background: #e3ecff;
+      :hover {
+        cursor: pointer;
+      }
+      .zakas_button_text {
+        font-family: Open Sans;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 22px;
+        text-align: left;
+        color: #27478b;
+      }
+      .zakas_btn_icon {
+        width: 18px;
+        height: 18px;
+      }
+    }
+    .zakas_media_button:hover {
+      cursor: pointer;
+      background: #d7d7d8;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .zakas {
+    width: 667px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    padding: 18px;
+    background-color: #27478b;
+    .zakas_top_flex {
+      margin-bottom: 26px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .zakas_titles {
+        .zakas_title {
+          margin-bottom: 5px;
+          font-family: Open Sans;
+          font-size: 23px;
+          font-weight: 500;
+          line-height: 25px;
+          text-align: left;
+          color: white;
+        }
+        .zakas_text {
+          font-family: Open Sans;
+          font-size: 14px;
+          font-weight: 600;
+          line-height: 19px;
+          color: #e3ecff;
+          text-decoration: underline;
+        }
+      }
+      .zakas_button {
+        width: 304px;
+        height: 50px;
+        padding-left: 17px;
+        padding-right: 12px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: #e3ecff;
+        .zakas_button_text {
+          font-family: Open Sans;
+          font-size: 14px;
+          font-weight: 600;
+          line-height: 15px;
+          text-align: left;
+          color: #27478b;
+        }
+        .zakas_btn_icon {
+          width: 11px;
+          height: 11px;
+        }
+      }
+      .zakas_button:hover {
+        cursor: pointer;
+        background: #d7d7d8;
+      }
+    }
+    .zakas_cards {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .zakas_card {
+        width: 190px;
+        height: 228px;
+        padding: 6px 6px 15px 6px;
+        border-radius: 10px;
+        background-color: white;
+        .zakas_card_img {
+          width: 100%;
+          height: 158px;
+          margin-bottom: 8px;
+        }
+        .zakas_card_title {
+          margin-bottom: 7px;
+          font-family: Open Sans;
+          font-size: 14px;
+          font-weight: 600;
+          line-height: 15px;
+          text-align: left;
+          color: #27478b;
+        }
+        .zakas_card_text {
+          width: 165px;
+          font-family: Open Sans;
+          font-size: 10px;
+          font-weight: 400;
+          line-height: 11px;
+          text-align: left;
+          color: #4b5563;
+        }
+      }
+      .zakas_card_display {
+        display: none;
+      }
+    }
+    .zakas_media_text {
+      margin-bottom: 25px;
+      text-align: center;
+      display: none;
+      font-family: Open Sans;
+      font-size: 27px;
+      font-weight: 600;
+      line-height: 36.77px;
+      color: #e3ecff;
+      text-decoration: underline;
+    }
+    .zakas_media_button {
+      width: 357px;
+      height: 74px;
+      padding-left: 21px;
+      padding-right: 25px;
+      border-radius: 18px;
+      display: none;
+      align-items: center;
+      justify-content: space-between;
+      background: #e3ecff;
+      :hover {
+        cursor: pointer;
+      }
+      .zakas_button_text {
+        font-family: Open Sans;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 22px;
+        text-align: left;
+        color: #27478b;
+      }
+      .zakas_btn_icon {
+        width: 18px;
+        height: 18px;
+      }
+    }
+    .zakas_media_button:hover {
+      cursor: pointer;
+      background: #d7d7d8;
+    }
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .zakas {
+    width: 380px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    border-radius: 11px;
+    padding: 8px;
+    background-color: #27478b;
+    .zakas_top_flex {
+      margin-bottom: 35px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .zakas_titles {
+        .zakas_title {
+          margin-top: 15px;
+          font-family: Open Sans;
+          font-size: 27px;
+          font-weight: 500;
+          line-height: 32px;
+          text-align: left;
+          color: white;
+        }
+        .zakas_text {
+          display: none;
+          font-family: Open Sans;
+          font-size: 14px;
+          font-weight: 600;
+          line-height: 19px;
+          color: #e3ecff;
+          text-decoration: underline;
+        }
+      }
+      .zakas_button {
+        width: 304px;
+        height: 50px;
+        padding-left: 17px;
+        padding-right: 12px;
+        border-radius: 10px;
+        display: none;
+        align-items: center;
+        justify-content: space-between;
+        background: #e3ecff;
+        .zakas_button_text {
+          font-family: Open Sans;
+          font-size: 14px;
+          font-weight: 600;
+          line-height: 15px;
+          text-align: left;
+          color: #27478b;
+        }
+        .zakas_btn_icon {
+          width: 11px;
+          height: 11px;
+        }
+      }
+      .zakas_button:hover {
+        cursor: pointer;
+        background: #d7d7d8;
+      }
+    }
+    .zakas_cards {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .zakas_card {
+        margin-bottom: 12px;
+        width: 358px;
+        height: 405px;
+        padding: 12px 12px 20px 12px;
+        border-radius: 11px;
+        background-color: white;
+        .zakas_card_img {
+          width: 100%;
+          height: 298px;
+          margin-bottom: 13px;
+        }
+        .zakas_card_title {
+          margin-bottom: 12px;
+          font-family: Open Sans;
+          font-size: 20px;
+          font-weight: 600;
+          line-height: 22px;
+          text-align: left;
+          color: #27478b;
+        }
+        .zakas_card_text {
+          width: 290px;
+          font-family: Open Sans;
+          font-size: 13px;
+          font-weight: 400;
+          line-height: 14px;
+          text-align: left;
+          color: #4b5563;
+        }
+      }
+      .zakas_card_display {
+        display: inline;
+      }
+    }
+    .zakas_media_text {
+      margin-bottom: 25px;
+      text-align: center;
+      display: block;
+      font-family: Open Sans;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 27px;
+      color: #e3ecff;
+      text-decoration: underline;
+    }
+    .zakas_media_button {
+      width: 357px;
+      height: 74px;
+      padding-left: 21px;
+      padding-right: 25px;
+      border-radius: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: #e3ecff;
+      :hover {
+        cursor: pointer;
+      }
+      .zakas_button_text {
+        font-family: Open Sans;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 22px;
+        text-align: left;
+        color: #27478b;
+      }
+      .zakas_btn_icon {
+        width: 18px;
+        height: 18px;
+      }
+    }
+    .zakas_media_button:hover {
+      cursor: pointer;
+      background: #d7d7d8;
+    }
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .zakas {
+    width: 335px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    padding: 7px;
+    background-color: #27478b;
+    .zakas_top_flex {
+      margin-bottom: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .zakas_titles {
+        .zakas_title {
+          margin-top: 10px;
+          font-family: Open Sans;
+          font-size: 26px;
+          font-weight: 500;
+          line-height: 28px;
+          text-align: left;
+          color: white;
+        }
+        .zakas_text {
+          display: none;
+          font-family: Open Sans;
+          font-size: 14px;
+          font-weight: 600;
+          line-height: 19px;
+          color: #e3ecff;
+          text-decoration: underline;
+        }
+      }
+      .zakas_button {
+        width: 304px;
+        height: 50px;
+        padding-left: 17px;
+        padding-right: 12px;
+        border-radius: 10px;
+        display: none;
+        align-items: center;
+        justify-content: space-between;
+        background: #e3ecff;
+        .zakas_button_text {
+          font-family: Open Sans;
+          font-size: 14px;
+          font-weight: 600;
+          line-height: 15px;
+          text-align: left;
+          color: #27478b;
+        }
+        .zakas_btn_icon {
+          width: 11px;
+          height: 11px;
+        }
+      }
+      .zakas_button:hover {
+        cursor: pointer;
+        background: #d7d7d8;
+      }
+    }
+    .zakas_cards {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .zakas_card {
+        margin-bottom: 10px;
+        width: 316px;
+        height: 358px;
+        padding: 9px 9px 19px 9px;
+        border-radius: 10px;
+        background-color: white;
+        .zakas_card_img {
+          width: 100%;
+          height: 263px;
+          margin-bottom: 12px;
+        }
+        .zakas_card_title {
+          margin-bottom: 12px;
+          font-family: Open Sans;
+          font-size: 18px;
+          font-weight: 600;
+          line-height: 19px;
+          text-align: left;
+          color: #27478b;
+        }
+        .zakas_card_text {
+          width: 256px;
+          font-family: Open Sans;
+          font-size: 11px;
+          font-weight: 400;
+          line-height: 12px;
+          text-align: left;
+          color: #4b5563;
+        }
+      }
+      .zakas_card_display {
+        display: inline;
+      }
+    }
+    .zakas_media_text {
+      margin-bottom: 25px;
+      text-align: center;
+      display: inline;
+      font-family: Open Sans;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 24px;
+      color: #e3ecff;
+      text-decoration: underline;
+      margin-left: 96px;
+    }
+    .zakas_media_button {
+      margin-top: 22px;
+      width: 315px;
+      height: 66px;
+      padding-left: 21px;
+      padding-right: 25px;
+      border-radius: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: #e3ecff;
+      :hover {
+        cursor: pointer;
+      }
+      .zakas_button_text {
+        font-family: Open Sans;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 19px;
+        text-align: left;
+        color: #27478b;
+      }
+      .zakas_btn_icon {
+        width: 15px;
+        height: 15px;
+      }
+    }
+    .zakas_media_button:hover {
+      cursor: pointer;
+      background: #d7d7d8;
+    }
+  }
+}

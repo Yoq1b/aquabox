@@ -1,0 +1,384 @@
+.blok_hero {
+  width: 1620px;
+  height: 600px;
+  border-radius: 18px;
+  margin: 0 auto;
+  margin-top: 33px;
+  padding: 74px 0 136px 66px;
+  background-image: url(../../../pages/blokV/img/blok_bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  .blok_top {
+    margin-bottom: 141px;
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    .top_icon {
+      width: 17px;
+      height: 17px;
+    }
+    .top_text {
+      font-family: Open Sans;
+      font-size: 27px;
+      font-weight: 400;
+      line-height: 27px;
+      letter-spacing: -0.01em;
+      text-align: left;
+      color: white;
+    }
+  }
+  .blok_title {
+    margin-bottom: 18px;
+    width: 685px;
+    font-family: Open Sans;
+    font-size: 62px;
+    font-weight: 500;
+    line-height: 62px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #fff;
+  }
+  .blog_text {
+    margin-bottom: 22px;
+    width: 575px;
+    font-family: Open Sans;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #fff;
+  }
+  .blog_name {
+    font-family: Open Sans;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #fff;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .blok_hero {
+    width: 1215px;
+    height: 450px;
+    border-radius: 18px;
+    margin: 0 auto;
+    margin-top: 24px;
+    padding: 55x 0 102px 49px;
+    background-image: url(../../../pages/blokV/img/blok_bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    .blok_top {
+      margin-bottom: 98px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      .top_icon {
+        width: 12px;
+        height: 12px;
+      }
+      .top_text {
+        font-family: Open Sans;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: -0.01em;
+        text-align: left;
+        color: white;
+      }
+    }
+    .blok_title {
+      margin-bottom: 15px;
+      width: 513px;
+      font-family: Open Sans;
+      font-size: 46px;
+      font-weight: 500;
+      line-height: 46px;
+      letter-spacing: -0.01em;
+      text-align: left;
+      color: #fff;
+    }
+    .blog_text {
+      margin-bottom: 22px;
+      width: 431px;
+      font-family: Open Sans;
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 15px;
+      letter-spacing: -0.01em;
+      text-align: left;
+      color: #fff;
+    }
+    .blog_name {
+      font-family: Open Sans;
+      font-size: 13px;
+      font-weight: 600;
+      line-height: 13px;
+      letter-spacing: -0.01em;
+      text-align: left;
+      color: #fff;
+    }
+  }
+}
+
+@media only screen and (max-width: 1020px) {
+  .blok_hero {
+    width: 860px;
+    height: 320px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 18px;
+    padding: 40px 0 40px 32px;
+    background-image: url(../../../pages/blokV/img/blok_bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    .blok_top {
+      margin-bottom: 55px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      .top_icon {
+        width: 9px;
+        height: 9px;
+      }
+      .top_text {
+        font-family: Open Sans;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: -0.01em;
+        text-align: left;
+        color: white;
+      }
+    }
+    .blok_title {
+      margin-bottom: 12px;
+      width: 364px;
+      font-family: Open Sans;
+      font-size: 32px;
+      font-weight: 500;
+      line-height: 32px;
+      letter-spacing: -0.01em;
+      text-align: left;
+      color: #fff;
+    }
+    .blog_text {
+      margin-bottom: 15px;
+      width: 357px;
+      font-family: Open Sans;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 15px;
+      letter-spacing: -0.01em;
+      text-align: left;
+      color: #fff;
+    }
+    .blog_name {
+      font-family: Open Sans;
+      font-size: 13px;
+      font-weight: 600;
+      line-height: 14px;
+      letter-spacing: -0.01em;
+      text-align: left;
+      color: #fff;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .blok_hero {
+    width: 667px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 18px;
+    padding: 20px 0 65px 11px;
+    background-image: url(../../../pages/blokV/img/hero_bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    .blok_top {
+      margin-bottom: 75px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      .top_icon {
+        width: 9px;
+        height: 9px;
+      }
+      .top_text {
+        font-family: Open Sans;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: -0.01em;
+        text-align: left;
+        color: white;
+      }
+    }
+    .blok_title {
+      margin-bottom: 16px;
+      width: 353px;
+      font-family: Open Sans;
+      font-size: 32px;
+      font-weight: 500;
+      line-height: 32px;
+      letter-spacing: -0.01em;
+      text-align: left;
+      color: #fff;
+    }
+    .blog_text {
+      // margin-bottom: 15px;
+      width: 333px;
+      font-family: Open Sans;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 15px;
+      letter-spacing: -0.01em;
+      text-align: left;
+      color: #fff;
+    }
+    .blog_name {
+      display: none;
+      font-family: Open Sans;
+      font-size: 13px;
+      font-weight: 600;
+      line-height: 14px;
+      letter-spacing: -0.01em;
+      text-align: left;
+      color: #fff;
+    }
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .blok_hero {
+    width: 380px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 18px;
+    padding: 20px 0 110px 11px;
+    background-image: url(../../../pages/blokV/img/mini_bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    .blok_top {
+      margin-bottom: 54px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      .top_icon {
+        width: 9px;
+        height: 9px;
+      }
+      .top_text {
+        font-family: Open Sans;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: -0.01em;
+        text-align: left;
+        color: white;
+      }
+    }
+    .blok_title {
+      margin-bottom: 16px;
+      width: 308px;
+      font-family: Open Sans;
+      font-size: 29px;
+      font-weight: 500;
+      line-height: 30px;
+      letter-spacing: -0.01em;
+      text-align: left;
+      color: #fff;
+    }
+    .blog_text {
+      // margin-bottom: 15px;
+      width: 263px;
+      font-family: Open Sans;
+      font-size: 11px;
+      font-weight: 400;
+      line-height: 12px;
+      letter-spacing: -0.01em;
+      text-align: left;
+      color: #fff;
+    }
+    .blog_name {
+      display: none;
+      font-family: Open Sans;
+      font-size: 13px;
+      font-weight: 600;
+      line-height: 14px;
+      letter-spacing: -0.01em;
+      text-align: left;
+      color: #fff;
+    }
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .blok_hero {
+    width: 335px;
+    height: 280px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 18px;
+    padding: 15px 0 65px 14px;
+    background-image: url(../../../pages/blokV/img/mini_bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    .blok_top {
+      margin-bottom: 28px;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      .top_icon {
+        width: 7px;
+        height: 7px;
+      }
+      .top_text {
+        font-family: Open Sans;
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 11px;
+        letter-spacing: -0.01em;
+        text-align: left;
+        color: white;
+      }
+    }
+    .blok_title {
+      margin-bottom: 20px;
+      width: 251px;
+      font-family: Open Sans;
+      font-size: 26px;
+      font-weight: 500;
+      line-height: 26px;
+      letter-spacing: -0.01em;
+      text-align: left;
+      color: #fff;
+    }
+    .blog_text {
+      // margin-bottom: 15px;
+      width: 255px;
+      font-family: Open Sans;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 14px;
+      letter-spacing: -0.01em;
+      text-align: left;
+      color: #fff;
+    }
+    .blog_name {
+      display: none;
+      font-family: Open Sans;
+      font-size: 13px;
+      font-weight: 600;
+      line-height: 14px;
+      letter-spacing: -0.01em;
+      text-align: left;
+      color: #fff;
+    }
+  }
+}

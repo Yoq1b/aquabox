@@ -1,0 +1,73 @@
+@import "./header.scss";
+@import "./hero.scss";
+@import "./investitsiya.scss";
+@import "./provide.scss";
+@import "./biznes.scss";
+@import "./support.scss";
+@import "./kachestvo.scss";
+@import "./video.scss";
+@import "./cards.scss";
+@import "./input.scss";
+@import "./carousel.scss";
+@import "./zakas.scss";
+@import "./stati.scss";
+@import "./footer.scss";
+@import "./componiaa.scss";
+
+.big_container {
+  width: 1920px;
+  gap: 0px;
+  opacity: 0px;
+  // border: 1px solid;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 1440px) {
+  .big_container {
+    width: 1440px;
+    gap: 0px;
+    opacity: 0px;
+    margin: 0 auto;
+    // border: 1px solid;
+  }
+}
+
+@media only screen and (max-width: 1020px) {
+  .big_container {
+    width: 1020px;
+    gap: 0px;
+    opacity: 0px;
+    margin: 0 auto;
+    // border: 1px solid;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .big_container {
+    width: 768px;
+    gap: 0px;
+    opacity: 0px;
+    margin: 0 auto;
+    // border: 1px solid;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .big_container {
+    width: 425px;
+    gap: 0px;
+    opacity: 0px;
+    margin: 0 auto;
+    // border: 1px solid;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .big_container {
+    width: 335px;
+    gap: 0px;
+    opacity: 0px;
+    margin: 0 auto;
+    // border: 1px solid;
+  }
+}

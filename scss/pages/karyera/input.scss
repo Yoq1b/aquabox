@@ -1,0 +1,1141 @@
+.input {
+  width: 1620px;
+  margin: 0 auto;
+  padding: 50px 114px 60px 60px;
+  border-radius: 18px;
+  background-color: #e3ecff;
+  display: flex;
+  justify-content: space-between;
+  .input_left {
+    .input_title {
+      margin-bottom: 26px;
+      width: 656px;
+      font-family: Open Sans;
+      font-size: 44px;
+      font-weight: 600;
+      line-height: 44px;
+      text-align: left;
+      color: #0a1938;
+      .input_span {
+        color: #27478b;
+      }
+    }
+    .input_text {
+      width: 825px;
+      font-family: Open Sans;
+      font-size: 27px;
+      font-weight: 500;
+      line-height: 27px;
+      text-align: left;
+      color: #0a1938;
+    }
+    .input_checkboxs {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      .input_checkbox_div {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        .checkbox-wrapper-48 {
+          --gray: #636e72;
+          --very-light-gray: #eee;
+          --light-gray: #9098a9;
+          --x-light-gray: #dfe6e9;
+          --color: #0a1938;
+        }
+
+        .checkbox-wrapper-48 input {
+          -webkit-appearance: none;
+          -moz-appearance: none;
+          appearance: none;
+          width: 33px;
+          height: 33px;
+          border: 3px solid var(--color);
+        }
+        .checkbox-wrapper-48 input[type="checkbox"] {
+          border-radius: 50%;
+        }
+        .checkbox-wrapper-48 input:checked {
+          cursor: pointer;
+          border-color: #27478b;
+          background: var(--color) border-box;
+          box-shadow: 0 0 0 0.3em inset #fff;
+        }
+        .checkbox-wrapper-48 input:not(:checked):hover {
+          cursor: pointer;
+          border-color: #27478b;
+          background: linear-gradient(#fff, #fff), var(--color) border-box;
+        }
+        .checkbox_text {
+          font-family: Open Sans;
+          font-size: 27px;
+          font-weight: 500;
+          text-align: left;
+          color: #27478b;
+        }
+      }
+    }
+    .kontak_div {
+      margin-top: 268px;
+      padding: 31px 62px 38px 41px;
+      width: 754px;
+      height: 267px;
+      border-radius: 18px;
+      border: 1px solid #27478b;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background: #fff;
+      .kontakt_title {
+        font-family: Open Sans;
+        font-size: 44px;
+        font-weight: 600;
+        line-height: 44px;
+        text-align: left;
+        color: #27478b;
+      }
+      .kontakt_bottom {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .kontakt_bottom_text {
+          width: 368px;
+          font-family: Open Sans;
+          font-size: 27px;
+          font-weight: 600;
+          line-height: 35.1px;
+          text-align: left;
+          color: #27478b;
+
+          .kontakt_span {
+            font-weight: 400;
+          }
+        }
+        .rr {
+          width: 240px;
+          font-family: Open Sans;
+          font-size: 27px;
+          font-weight: 600;
+          line-height: 35.1px;
+          text-align: left;
+          color: #27478b;
+
+          .kontakt_span {
+            font-weight: 400;
+          }
+        }
+      }
+    }
+  }
+  .input_right {
+    width: 413px;
+    .input_right_flex {
+      .input_right_text {
+        margin-bottom: 8px;
+        font-family: Open Sans;
+        font-size: 27px;
+        font-weight: 600;
+        line-height: 36.77px;
+        text-align: left;
+        color: #4b5563;
+      }
+      .input_right_input {
+        margin-bottom: 26px;
+        width: 413px;
+        height: 95px;
+        padding-left: 32px;
+        border-radius: 18px;
+        border: 1px solid #4b556399;
+        font-family: Open Sans;
+        font-size: 27px;
+        font-weight: 400;
+        line-height: 29.7px;
+        text-align: left;
+        color: #4b556399;
+        background: #e3ecff;
+      }
+      .kkkk {
+        height: 150px;
+      }
+    }
+    .input_right_btn {
+      width: 413px;
+      height: 87px;
+      border-radius: 18px;
+      padding: 29px 30px 32px 41px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: #27478b;
+      .btn_right_text {
+        font-family: Open Sans;
+        font-size: 27px;
+        font-weight: 600;
+        line-height: 29.7px;
+        text-align: left;
+        color: white;
+      }
+      .btn_right_icon {
+        width: 21px;
+        height: 21px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .input {
+    width: 1215px;
+    margin: 0 auto;
+    padding: 37px 86px 46px 44px;
+    border-radius: 14px;
+    background-color: #e3ecff;
+    display: flex;
+    justify-content: space-between;
+    .input_left {
+      .input_title {
+        margin-bottom: 20px;
+        width: 504px;
+        font-family: Open Sans;
+        font-size: 33px;
+        font-weight: 600;
+        line-height: 33px;
+        text-align: left;
+        color: #0a1938;
+        .input_span {
+          color: #27478b;
+        }
+      }
+      .input_text {
+        width: 610px;
+        font-family: Open Sans;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 21px;
+        text-align: left;
+        color: #0a1938;
+      }
+      .input_checkboxs {
+        display: flex;
+        align-items: center;
+        gap: 22px;
+        .input_checkbox_div {
+          display: flex;
+          align-items: center;
+          gap: 7px;
+          .checkbox-wrapper-48 {
+            --gray: #636e72;
+            --very-light-gray: #eee;
+            --light-gray: #9098a9;
+            --x-light-gray: #dfe6e9;
+            --color: #27478b;
+          }
+
+          .checkbox-wrapper-48 input {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            width: 25px;
+            height: 25px;
+            border: 2px solid var(--color);
+          }
+          .checkbox-wrapper-48 input[type="checkbox"] {
+            border-radius: 50%;
+          }
+          .checkbox-wrapper-48 input:checked {
+            cursor: pointer;
+            border-color: #27478b;
+            background: var(--color) border-box;
+            box-shadow: 0 0 0 0.2em inset #fff;
+          }
+          .checkbox-wrapper-48 input:not(:checked):hover {
+            cursor: pointer;
+            border-color: #27478b;
+            background: linear-gradient(#fff, #fff), var(--color) border-box;
+          }
+          .checkbox_text {
+            font-family: Open Sans;
+            font-size: 27px;
+            font-weight: 500;
+            text-align: left;
+            color: #27478b;
+          }
+        }
+      }
+      .kontak_div {
+        margin-top: 200px;
+        padding: 23px 46px 28px 31px;
+        width: 566px;
+        height: 200px;
+        border-radius: 14px;
+        border: 1px solid #27478b;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background: #fff;
+        .kontakt_title {
+          font-family: Open Sans;
+          font-size: 33px;
+          font-weight: 600;
+          line-height: 33px;
+          text-align: left;
+          color: #27478b;
+        }
+        .kontakt_bottom {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          .kontakt_bottom_text {
+            width: 276px;
+            font-family: Open Sans;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 26px;
+            text-align: left;
+            color: #27478b;
+
+            .kontakt_span {
+              font-weight: 400;
+            }
+          }
+          .rr {
+            width: 172px;
+            font-family: Open Sans;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 26px;
+            text-align: left;
+            color: #27478b;
+
+            .kontakt_span {
+              font-weight: 400;
+            }
+          }
+        }
+      }
+    }
+    .input_right {
+      width: 310px;
+      .input_right_flex {
+        .input_right_text {
+          margin-bottom: 6px;
+          font-family: Open Sans;
+          font-size: 20px;
+          font-weight: 600;
+          line-height: 27px;
+          text-align: left;
+          color: #4b5563;
+        }
+        .input_right_input {
+          margin-bottom: 19px;
+          width: 310px;
+          height: 71px;
+          padding-left: 24px;
+          border-radius: 14px;
+          border: 1px solid #4b556399;
+          font-family: Open Sans;
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 22px;
+          text-align: left;
+          color: #4b556399;
+          background: #e3ecff;
+        }
+        .kkkk {
+          height: 112px;
+        }
+      }
+      .input_right_btn {
+        width: 310px;
+        height: 65px;
+        border-radius: 14px;
+        padding: 22px 22px 23px 31px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: #27478b;
+        .btn_right_text {
+          font-family: Open Sans;
+          font-size: 20px;
+          font-weight: 600;
+          line-height: 22px;
+          text-align: left;
+          color: white;
+        }
+        .btn_right_icon {
+          width: 16px;
+          height: 16px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1020px) {
+  .input {
+    width: 860px;
+    margin: 0 auto;
+    padding: 26px 61px 33px 31px;
+    border-radius: 14px;
+    background-color: #e3ecff;
+    display: flex;
+    justify-content: space-between;
+    .input_left {
+      .input_title {
+        margin-bottom: 15px;
+        width: 350px;
+        font-family: Open Sans;
+        font-size: 23px;
+        font-weight: 600;
+        line-height: 23px;
+        text-align: left;
+        color: #0a1938;
+        .input_span {
+          color: #27478b;
+        }
+      }
+      .input_text {
+        margin-bottom: 15px;
+        width: 430px;
+        font-family: Open Sans;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 15px;
+        text-align: left;
+        color: #0a1938;
+      }
+      .input_checkboxs {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        .input_checkbox_div {
+          display: flex;
+          align-items: center;
+          gap: 5px;
+          .checkbox-wrapper-48 {
+            --gray: #636e72;
+            --very-light-gray: #eee;
+            --light-gray: #9098a9;
+            --x-light-gray: #dfe6e9;
+            --color: #27478b;
+          }
+
+          .checkbox-wrapper-48 input {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            width: 18px;
+            height: 18px;
+            border: 2px solid var(--color);
+          }
+          .checkbox-wrapper-48 input[type="checkbox"] {
+            border-radius: 50%;
+          }
+          .checkbox-wrapper-48 input:checked {
+            cursor: pointer;
+            border-color: #27478b;
+            background: var(--color) border-box;
+            box-shadow: 0 0 0 0.1em inset #fff;
+          }
+          .checkbox-wrapper-48 input:not(:checked):hover {
+            cursor: pointer;
+            border-color: #27478b;
+            background: linear-gradient(#fff, #fff), var(--color) border-box;
+          }
+          .checkbox_text {
+            font-family: Open Sans;
+            font-size: 14px;
+            font-weight: 500;
+            text-align: left;
+            color: #27478b;
+          }
+        }
+      }
+      .kontak_div {
+        margin-top: 142px;
+        padding: 16px 32px 18px 22px;
+        width: 401px;
+        height: 142px;
+        border-radius: 10px;
+        border: 1px solid #27478b;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background: #fff;
+        .kontakt_title {
+          font-family: Open Sans;
+          font-size: 23px;
+          font-weight: 600;
+          line-height: 23px;
+          text-align: left;
+          color: #27478b;
+        }
+        .kontakt_bottom {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          .kontakt_bottom_text {
+            width: 200px;
+            font-family: Open Sans;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 19px;
+            text-align: left;
+            color: #27478b;
+
+            .kontakt_span {
+              font-weight: 400;
+            }
+          }
+          .rr {
+            width: 172px;
+            font-family: Open Sans;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 19px;
+            text-align: left;
+            color: #27478b;
+
+            .kontakt_span {
+              font-weight: 400;
+            }
+          }
+        }
+      }
+    }
+    .input_right {
+      width: 220px;
+      .input_right_flex {
+        .input_right_text {
+          margin-bottom: 4px;
+          font-family: Open Sans;
+          font-size: 14px;
+          font-weight: 600;
+          line-height: 19px;
+          text-align: left;
+          color: #4b5563;
+        }
+        .input_right_input {
+          margin-bottom: 19px;
+          width: 220px;
+          height: 50px;
+          padding-left: 17px;
+          border-radius: 10px;
+          border: 1px solid #4b556399;
+          font-family: Open Sans;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 16px;
+          text-align: left;
+          color: #4b556399;
+          background: #e3ecff;
+        }
+        .kkkk {
+          height: 80px;
+        }
+      }
+      .input_right_btn {
+        width: 220px;
+        height: 46px;
+        border-radius: 10px;
+        padding: 16px 16px 16px 22px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: #27478b;
+        .btn_right_text {
+          font-family: Open Sans;
+          font-size: 14px;
+          font-weight: 600;
+          line-height: 16px;
+          text-align: left;
+          color: white;
+        }
+        .btn_right_icon {
+          width: 11px;
+          height: 11px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .input {
+    width: 667px;
+    margin: 0 auto;
+    padding: 21px 19px 21px 21px;
+    border-radius: 14px;
+    background-color: #e3ecff;
+    display: flex;
+    justify-content: space-between;
+    .input_left {
+      .input_title {
+        margin-bottom: 15px;
+        width: 341px;
+        font-family: Open Sans;
+        font-size: 23px;
+        font-weight: 600;
+        line-height: 23px;
+        text-align: left;
+        color: #0a1938;
+        .input_span {
+          color: #27478b;
+        }
+      }
+      .input_text {
+        margin-bottom: 15px;
+        width: 370px;
+        font-family: Open Sans;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 15px;
+        text-align: left;
+        color: #0a1938;
+      }
+      .input_checkboxs {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        .input_checkbox_div {
+          display: flex;
+          align-items: center;
+          gap: 5px;
+          .checkbox-wrapper-48 {
+            --gray: #636e72;
+            --very-light-gray: #eee;
+            --light-gray: #9098a9;
+            --x-light-gray: #dfe6e9;
+            --color: #27478b;
+          }
+
+          .checkbox-wrapper-48 input {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            width: 18px;
+            height: 18px;
+            border: 2px solid var(--color);
+          }
+          .checkbox-wrapper-48 input[type="checkbox"] {
+            border-radius: 50%;
+          }
+          .checkbox-wrapper-48 input:checked {
+            cursor: pointer;
+            border-color: #27478b;
+            background: var(--color) border-box;
+            box-shadow: 0 0 0 0.1em inset #fff;
+          }
+          .checkbox-wrapper-48 input:not(:checked):hover {
+            cursor: pointer;
+            border-color: #27478b;
+            background: linear-gradient(#fff, #fff), var(--color) border-box;
+          }
+          .checkbox_text {
+            font-family: Open Sans;
+            font-size: 14px;
+            font-weight: 500;
+            text-align: left;
+            color: #27478b;
+          }
+        }
+      }
+      .kontak_div {
+        margin-top: 91px;
+        padding: 26px 0 21px 23px;
+        width: 305px;
+        height: 190px;
+        border-radius: 10px;
+        border: 1px solid #27478b;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background: #fff;
+        .kontakt_title {
+          font-family: Open Sans;
+          font-size: 23px;
+          font-weight: 600;
+          line-height: 23px;
+          text-align: left;
+          color: #27478b;
+        }
+        .kontakt_bottom {
+          display: flex;
+          flex-direction: column;
+          gap: 16px;
+          align-items: flex-start;
+          justify-content: space-between;
+          .kontakt_bottom_text {
+            width: 200px;
+            font-family: Open Sans;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 19px;
+            text-align: left;
+            color: #27478b;
+
+            .kontakt_span {
+              font-weight: 400;
+            }
+          }
+          .rr {
+            width: 172px;
+            font-family: Open Sans;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 19px;
+            text-align: left;
+            color: #27478b;
+
+            .kontakt_span {
+              font-weight: 400;
+            }
+          }
+        }
+      }
+    }
+    .input_right {
+      width: 220px;
+      .input_right_flex {
+        .input_right_text {
+          margin-bottom: 3px;
+          font-family: Open Sans;
+          font-size: 14px;
+          font-weight: 600;
+          line-height: 19px;
+          text-align: left;
+          color: #4b5563;
+        }
+        .input_right_input {
+          margin-bottom: 19px;
+          width: 220px;
+          height: 50px;
+          padding-left: 17px;
+          border-radius: 10px;
+          border: 1px solid #4b556399;
+          font-family: Open Sans;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 16px;
+          text-align: left;
+          color: #4b556399;
+          background: #e3ecff;
+        }
+        .kkkk {
+          height: 80px;
+        }
+      }
+      .input_right_btn {
+        width: 220px;
+        height: 46px;
+        border-radius: 10px;
+        padding: 16px 16px 16px 22px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: #27478b;
+        .btn_right_text {
+          font-family: Open Sans;
+          font-size: 14px;
+          font-weight: 600;
+          line-height: 16px;
+          text-align: left;
+          color: white;
+        }
+        .btn_right_icon {
+          width: 11px;
+          height: 11px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .input {
+    width: 380px;
+    margin: 0 auto;
+    padding: 30px 11px 12px 11px;
+    border-radius: 11px;
+    background-color: #e3ecff;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    .input_left {
+      .input_title {
+        margin-bottom: 25px;
+        width: 360px;
+        font-family: Open Sans;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 30px;
+        text-align: left;
+        color: #0a1938;
+        .input_span {
+          color: #27478b;
+        }
+      }
+      .input_text {
+        margin-bottom: 27px;
+        width: 220px;
+        font-family: Open Sans;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 22px;
+        text-align: left;
+        color: #0a1938;
+      }
+      .input_checkboxs {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 17px;
+        .input_checkbox_div {
+          display: flex;
+          align-items: center;
+          gap: 7px;
+          .checkbox-wrapper-48 {
+            --gray: #636e72;
+            --very-light-gray: #eee;
+            --light-gray: #9098a9;
+            --x-light-gray: #dfe6e9;
+            --color: #27478b;
+          }
+
+          .checkbox-wrapper-48 input {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            width: 30px;
+            height: 30px;
+            border: 3px solid var(--color);
+          }
+          .checkbox-wrapper-48 input[type="checkbox"] {
+            border-radius: 50%;
+          }
+          .checkbox-wrapper-48 input:checked {
+            cursor: pointer;
+            border-color: #27478b;
+            background: var(--color) border-box;
+            box-shadow: 0 0 0 0.2em inset #fff;
+          }
+          .checkbox-wrapper-48 input:not(:checked):hover {
+            cursor: pointer;
+            border-color: #27478b;
+            background: linear-gradient(#fff, #fff), var(--color) border-box;
+          }
+          .checkbox_text {
+            font-family: Open Sans;
+            font-size: 20px;
+            font-weight: 500;
+            text-align: left;
+            color: #27478b;
+          }
+        }
+      }
+      .kontak_div {
+        margin-top: 91px;
+        padding: 26px 0 21px 23px;
+        width: 305px;
+        height: 190px;
+        border-radius: 10px;
+        border: 1px solid #27478b;
+        display: none;
+        flex-direction: column;
+        justify-content: space-between;
+        background: #fff;
+        .kontakt_title {
+          font-family: Open Sans;
+          font-size: 23px;
+          font-weight: 600;
+          line-height: 23px;
+          text-align: left;
+          color: #27478b;
+        }
+        .kontakt_bottom {
+          display: flex;
+          flex-direction: column;
+          gap: 16px;
+          align-items: flex-start;
+          justify-content: space-between;
+          .kontakt_bottom_text {
+            width: 200px;
+            font-family: Open Sans;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 19px;
+            text-align: left;
+            color: #27478b;
+
+            .kontakt_span {
+              font-weight: 400;
+            }
+          }
+          .rr {
+            width: 172px;
+            font-family: Open Sans;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 19px;
+            text-align: left;
+            color: #27478b;
+
+            .kontakt_span {
+              font-weight: 400;
+            }
+          }
+        }
+      }
+    }
+    .input_right {
+      margin-top: 35px;
+      width: 357px;
+      .input_right_flex {
+        .input_right_text {
+          margin-bottom: 7px;
+          font-family: Open Sans;
+          font-size: 20px;
+          font-weight: 600;
+          line-height: 27px;
+          text-align: left;
+          color: #4b5563;
+        }
+        .input_right_input {
+          margin-bottom: 21px;
+          width: 357px;
+          height: 70px;
+          padding-left: 22px;
+          border-radius: 10px;
+          border: 1px solid #4b556399;
+          font-family: Open Sans;
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 22px;
+          text-align: left;
+          color: #4b556399;
+          background: #e3ecff;
+        }
+        .kkkk {
+          height: 118px;
+        }
+      }
+      .input_right_btn {
+        width: 357px;
+        height: 75px;
+        border-radius: 10px;
+        padding: 25px 25px 27px 21px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: #27478b;
+        .btn_right_text {
+          font-family: Open Sans;
+          font-size: 20px;
+          font-weight: 600;
+          line-height: 22px;
+          text-align: left;
+          color: white;
+        }
+        .btn_right_icon {
+          width: 18px;
+          height: 18px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .input {
+    width: 335px;
+    margin: 0 auto;
+    padding: 26px 10px 10px 10px;
+    border-radius: 11px;
+    background-color: #e3ecff;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    .input_left {
+      .input_title {
+        margin-bottom: 25px;
+        width: 795px;
+        font-family: Open Sans;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 24px;
+        text-align: left;
+        color: #0a1938;
+        .input_span {
+          color: #27478b;
+        }
+      }
+      .input_text {
+        margin-bottom: 21px;
+        width: 200px;
+        font-family: Open Sans;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 19px;
+        text-align: left;
+        color: #0a1938;
+      }
+      .input_checkboxs {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+        .input_checkbox_div {
+          display: flex;
+          align-items: center;
+          gap: 7px;
+          .checkbox-wrapper-48 {
+            --gray: #636e72;
+            --very-light-gray: #eee;
+            --light-gray: #9098a9;
+            --x-light-gray: #dfe6e9;
+            --color: #27478b;
+          }
+
+          .checkbox-wrapper-48 input {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            width: 25px;
+            height: 25px;
+            border: 3px solid var(--color);
+          }
+          .checkbox-wrapper-48 input[type="checkbox"] {
+            border-radius: 50%;
+          }
+          .checkbox-wrapper-48 input:checked {
+            cursor: pointer;
+            border-color: #27478b;
+            background: var(--color) border-box;
+            box-shadow: 0 0 0 0.2em inset #fff;
+          }
+          .checkbox-wrapper-48 input:not(:checked):hover {
+            cursor: pointer;
+            border-color: #27478b;
+            background: linear-gradient(#fff, #fff), var(--color) border-box;
+          }
+          .checkbox_text {
+            font-family: Open Sans;
+            font-size: 18px;
+            font-weight: 500;
+            text-align: left;
+            color: #27478b;
+          }
+        }
+      }
+      .kontak_div {
+        margin-top: 91px;
+        padding: 26px 0 21px 23px;
+        width: 305px;
+        height: 190px;
+        border-radius: 10px;
+        border: 1px solid #27478b;
+        display: none;
+        flex-direction: column;
+        justify-content: space-between;
+        background: #fff;
+        .kontakt_title {
+          font-family: Open Sans;
+          font-size: 23px;
+          font-weight: 600;
+          line-height: 23px;
+          text-align: left;
+          color: #27478b;
+        }
+        .kontakt_bottom {
+          display: flex;
+          flex-direction: column;
+          gap: 16px;
+          align-items: flex-start;
+          justify-content: space-between;
+          .kontakt_bottom_text {
+            width: 200px;
+            font-family: Open Sans;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 19px;
+            text-align: left;
+            color: #27478b;
+
+            .kontakt_span {
+              font-weight: 400;
+            }
+          }
+          .rr {
+            width: 172px;
+            font-family: Open Sans;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 19px;
+            text-align: left;
+            color: #27478b;
+
+            .kontakt_span {
+              font-weight: 400;
+            }
+          }
+        }
+      }
+    }
+    .input_right {
+      margin-top: 29px;
+      width: 315px;
+      .input_right_flex {
+        .input_right_text {
+          margin-bottom: 6px;
+          font-family: Open Sans;
+          font-size: 18px;
+          font-weight: 600;
+          line-height: 24px;
+          text-align: left;
+          color: #4b5563;
+        }
+        .input_right_input {
+          margin-bottom: 21px;
+          width: 315px;
+          height: 62px;
+          padding-left: 22px;
+          border-radius: 10px;
+          border: 1px solid #4b556399;
+          font-family: Open Sans;
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 19px;
+          text-align: left;
+          color: #4b556399;
+          background: #e3ecff;
+        }
+        .kkkk {
+          height: 104px;
+        }
+      }
+      .input_right_btn {
+        width: 315px;
+        height: 66px;
+        border-radius: 10px;
+        padding: 22px 22px 24px 19px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: #27478b;
+        .btn_right_text {
+          font-family: Open Sans;
+          font-size: 18px;
+          font-weight: 600;
+          line-height: 19px;
+          text-align: left;
+          color: white;
+        }
+        .btn_right_icon {
+          width: 16px;
+          height: 16px;
+        }
+      }
+    }
+  }
+}

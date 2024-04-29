@@ -1,0 +1,476 @@
+.komanda {
+  width: 1620px;
+  border-radius: 18px;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 70px;
+  background: linear-gradient(96.36deg, #27478b 0.79%, #0a1325 72.84%);
+  padding-left: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .komanda_left {
+    padding-top: 51px;
+    .komanda_title {
+      margin-bottom: 25px;
+      font-family: Open Sans;
+      font-size: 60px;
+      font-weight: 500;
+      line-height: 60px;
+      text-align: left;
+      color: white;
+    }
+    .komanda_text {
+      margin-bottom: 51px;
+      width: 673px;
+      font-family: Open Sans;
+      font-size: 27px;
+      font-weight: 400;
+      line-height: 29.7px;
+      text-align: left;
+      color: white;
+    }
+    .komanda_btn_div {
+      margin-bottom: 60px;
+      width: 617px;
+      height: 93px;
+      padding: 0 40px 0 20px;
+      border-radius: 18px;
+      background-color: #f8f9fb;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .btn_text {
+        font-family: Open Sans;
+        font-size: 27px;
+        font-weight: 600;
+        line-height: 29.7px;
+        text-align: left;
+        color: #27478b;
+      }
+      .btn_icon {
+        width: 20px;
+        height: 20px;
+      }
+    }
+    .komanda_btn_div:hover {
+      cursor: pointer;
+      background-color: #ddddde;
+    }
+  }
+  .komanda_right {
+    width: 795px;
+    height: 550px;
+    border-radius: 18px;
+    background-color: #d9d9d9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .right_text {
+      font-family: Open Sans;
+      font-size: 60px;
+      font-weight: 600;
+      line-height: 60px;
+      letter-spacing: -0.01em;
+      text-align: left;
+      color: #27478b;
+    }
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .komanda {
+    width: 1215px;
+    border-radius: 14px;
+    margin: 0 auto;
+    margin-top: 45px;
+    margin-bottom: 52px;
+    background: linear-gradient(96.36deg, #27478b 0.79%, #0a1325 72.84%);
+    padding-left: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .komanda_left {
+      padding-top: 39px;
+      .komanda_title {
+        margin-bottom: 16px;
+        font-family: Open Sans;
+        font-size: 46px;
+        font-weight: 500;
+        line-height: 46px;
+        text-align: left;
+        color: white;
+      }
+      .komanda_text {
+        margin-bottom: 42px;
+        width: 480px;
+        font-family: Open Sans;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 22px;
+        text-align: left;
+        color: white;
+      }
+      .komanda_btn_div {
+        margin-bottom: 60px;
+        width: 462px;
+        height: 70px;
+        padding: 0 30px 0 16px;
+        border-radius: 14px;
+        background-color: #f8f9fb;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .btn_text {
+          font-family: Open Sans;
+          font-size: 20px;
+          font-weight: 600;
+          line-height: 22px;
+          text-align: left;
+          color: #27478b;
+        }
+        .btn_icon {
+          width: 15px;
+          height: 15px;
+        }
+      }
+      .komanda_btn_div:hover {
+        cursor: pointer;
+        background-color: #ddddde;
+      }
+    }
+    .komanda_right {
+      width: 596px;
+      height: 430px;
+      border-radius: 14px;
+      background-color: #d9d9d9;
+      .right_text {
+        font-family: Open Sans;
+        font-size: 45px;
+        font-weight: 600;
+        line-height: 45px;
+        letter-spacing: -0.01em;
+        text-align: left;
+        color: #27478b;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1020px) {
+  .komanda {
+    width: 860px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 32px;
+    margin-bottom: 37px;
+    background: linear-gradient(96.36deg, #27478b 0.79%, #0a1325 72.84%);
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .komanda_left {
+      padding-top: 28px;
+      .komanda_title {
+        margin-bottom: 9px;
+        font-family: Open Sans;
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 32px;
+        text-align: left;
+        color: white;
+      }
+      .komanda_text {
+        margin-bottom: 42px;
+        width: 340px;
+        font-family: Open Sans;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 15px;
+        text-align: left;
+        color: white;
+      }
+      .komanda_btn_div {
+        margin-bottom: 31px;
+        width: 327px;
+        height: 49px;
+        padding: 0 21px 0 11px;
+        border-radius: 10px;
+        background-color: #f8f9fb;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .btn_text {
+          font-family: Open Sans;
+          font-size: 14px;
+          font-weight: 600;
+          line-height: 15px;
+          text-align: left;
+          color: #27478b;
+        }
+        .btn_icon {
+          width: 11px;
+          height: 11px;
+        }
+      }
+      .komanda_btn_div:hover {
+        cursor: pointer;
+        background-color: #ddddde;
+      }
+    }
+    .komanda_right {
+      width: 422px;
+      height: 300px;
+      border-radius: 10px;
+      background-color: #d9d9d9;
+      .right_text {
+        font-family: Open Sans;
+        font-size: 31px;
+        font-weight: 600;
+        line-height: 31px;
+        letter-spacing: -0.01em;
+        text-align: left;
+        color: #27478b;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .komanda {
+    width: 667px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background: linear-gradient(96.36deg, #27478b 0.79%, #0a1325 72.84%);
+    padding-left: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .komanda_left {
+      padding-top: 29px;
+      .komanda_title {
+        margin-bottom: 8px;
+        font-family: Open Sans;
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 32px;
+        text-align: left;
+        color: white;
+      }
+      .komanda_text {
+        margin-bottom: 17px;
+        width: 340px;
+        font-family: Open Sans;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 15px;
+        text-align: left;
+        color: white;
+      }
+      .komanda_btn_div {
+        margin-bottom: 25px;
+        width: 295px;
+        height: 49px;
+        padding: 0 21px 0 11px;
+        border-radius: 10px;
+        background-color: #f8f9fb;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .btn_text {
+          font-family: Open Sans;
+          font-size: 14px;
+          font-weight: 600;
+          line-height: 15px;
+          text-align: left;
+          color: #27478b;
+        }
+        .btn_icon {
+          width: 10px;
+          height: 10px;
+        }
+      }
+      .komanda_btn_div:hover {
+        cursor: pointer;
+        background-color: #ddddde;
+      }
+    }
+    .komanda_right {
+      width: 293px;
+      height: 275px;
+      border-radius: 9px;
+      background-color: #d9d9d9;
+      .right_text {
+        font-family: Open Sans;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 30px;
+        letter-spacing: -0.01em;
+        text-align: left;
+        color: #27478b;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .komanda {
+    width: 380px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background: linear-gradient(96.36deg, #27478b 0.79%, #0a1325 72.84%);
+    padding-left: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .komanda_left {
+      padding-top: 29px;
+      .komanda_title {
+        margin-bottom: 8px;
+        font-family: Open Sans;
+        font-size: 29px;
+        font-weight: 500;
+        line-height: 29px;
+        text-align: left;
+        color: white;
+      }
+      .komanda_text {
+        margin-bottom: 17px;
+        width: 340px;
+        font-family: Open Sans;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 22px;
+        text-align: left;
+        color: white;
+      }
+      .komanda_btn_div {
+        margin-bottom: 11px;
+        width: 357px;
+        height: 75px;
+        padding: 0 28px 0 21px;
+        border-radius: 10px;
+        background-color: #f8f9fb;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .btn_text {
+          font-family: Open Sans;
+          font-size: 20px;
+          font-weight: 600;
+          line-height: 22px;
+          text-align: left;
+          color: #27478b;
+        }
+        .btn_icon {
+          width: 18px;
+          height: 18px;
+        }
+      }
+      .komanda_btn_div:hover {
+        cursor: pointer;
+        background-color: #ddddde;
+      }
+    }
+    .komanda_right {
+      display: none;
+      width: 293px;
+      height: 275px;
+      border-radius: 9px;
+      background-color: #d9d9d9;
+      .right_text {
+        font-family: Open Sans;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 30px;
+        letter-spacing: -0.01em;
+        text-align: left;
+        color: #27478b;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .komanda {
+    width: 335px;
+    border-radius: 9px;
+    margin: 0 auto;
+    margin-top: 26px;
+    margin-bottom: 17px;
+    background: linear-gradient(96.36deg, #27478b 0.79%, #0a1325 72.84%);
+    padding-left: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .komanda_left {
+      padding-top: 13px;
+      .komanda_title {
+        margin-bottom: 5px;
+        font-family: Open Sans;
+        font-size: 26px;
+        font-weight: 500;
+        line-height: 26px;
+        text-align: left;
+        color: white;
+      }
+      .komanda_text {
+        margin-bottom: 8px;
+        width: 310px;
+        font-family: Open Sans;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: left;
+        color: white;
+      }
+      .komanda_btn_div {
+        margin-bottom: 11px;
+        width: 315px;
+        height: 66px;
+        padding: 0 24px 0 18px;
+        border-radius: 9px;
+        background-color: #f8f9fb;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .btn_text {
+          font-family: Open Sans;
+          font-size: 18px;
+          font-weight: 600;
+          line-height: 19px;
+          text-align: left;
+          color: #27478b;
+        }
+        .btn_icon {
+          width: 16px;
+          height: 16px;
+        }
+      }
+      .komanda_btn_div:hover {
+        cursor: pointer;
+        background-color: #ddddde;
+      }
+    }
+    .komanda_right {
+      display: none;
+      width: 293px;
+      height: 275px;
+      border-radius: 9px;
+      background-color: #d9d9d9;
+      .right_text {
+        font-family: Open Sans;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 30px;
+        letter-spacing: -0.01em;
+        text-align: left;
+        color: #27478b;
+      }
+    }
+  }
+}

@@ -1,0 +1,287 @@
+.kachestvo {
+  width: 1620px;
+  padding: 0px 60px 0px 60px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 0 auto;
+  .kachesvo_left {
+    .kachestvo_title {
+      width: 210px;
+      font-family: Open Sans;
+      font-size: 27px;
+      font-weight: 500;
+      line-height: 27px;
+      text-align: left;
+      color: #0a1938;
+    }
+  }
+  .kachesvo_right {
+    .kachestvo_top_text {
+      width: 800px;
+      margin-bottom: 20px;
+      font-family: Open Sans;
+      font-size: 44px;
+      font-weight: 600;
+      line-height: 44px;
+      text-align: left;
+      .kachestvo_span {
+        color: #27478b;
+      }
+    }
+    .kachestvo_bottomtext {
+      width: 750px;
+      font-family: Open Sans;
+      font-size: 44px;
+      font-weight: 600;
+      line-height: 44px;
+      text-align: left;
+      .kachestvo_span {
+        color: #27478b;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .kachestvo {
+    width: 1215px;
+    padding: 0px 45px 0px 45px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 0 auto;
+    .kachesvo_left {
+      .kachestvo_title {
+        width: 150px;
+        font-family: Open Sans;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        color: #0a1938;
+      }
+    }
+    .kachesvo_right {
+      .kachestvo_top_text {
+        width: 600px;
+        margin-bottom: 15px;
+        font-family: Open Sans;
+        font-size: 33px;
+        font-weight: 600;
+        line-height: 33px;
+        text-align: left;
+        .kachestvo_span {
+          color: #27478b;
+        }
+      }
+      .kachestvo_bottomtext {
+        width: 550px;
+        font-family: Open Sans;
+        font-size: 33px;
+        font-weight: 600;
+        line-height: 33px;
+        text-align: left;
+        .kachestvo_span {
+          color: #27478b;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1020px) {
+  .kachestvo {
+    width: 860px;
+    padding: 0px 31px 0px 31px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 0 auto;
+    .kachesvo_left {
+      .kachestvo_title {
+        width: 110px;
+        font-family: Open Sans;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 14px;
+        text-align: left;
+        color: #0a1938;
+      }
+    }
+    .kachesvo_right {
+      .kachestvo_top_text {
+        width: 410px;
+        margin-bottom: 12px;
+        font-family: Open Sans;
+        font-size: 23px;
+        font-weight: 600;
+        line-height: 23px;
+        text-align: left;
+        .kachestvo_span {
+          color: #27478b;
+        }
+      }
+      .kachestvo_bottomtext {
+        width: 400px;
+        font-family: Open Sans;
+        font-size: 23px;
+        font-weight: 600;
+        line-height: 23px;
+        text-align: left;
+        .kachestvo_span {
+          color: #27478b;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .kachestvo {
+    width: 667px;
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 0 auto;
+    .kachesvo_left {
+      .kachestvo_title {
+        width: 110px;
+        font-family: Open Sans;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 14px;
+        text-align: left;
+        color: #0a1938;
+      }
+    }
+    .kachesvo_right {
+      .kachestvo_top_text {
+        width: 410px;
+        margin-bottom: 12px;
+        font-family: Open Sans;
+        font-size: 23px;
+        font-weight: 600;
+        line-height: 23px;
+        text-align: left;
+        .kachestvo_span {
+          color: #27478b;
+        }
+      }
+      .kachestvo_bottomtext {
+        width: 400px;
+        font-family: Open Sans;
+        font-size: 23px;
+        font-weight: 600;
+        line-height: 23px;
+        text-align: left;
+        .kachestvo_span {
+          color: #27478b;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .kachestvo {
+    width: 380px;
+    padding: 0px 10px 0px 10px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    .kachesvo_left {
+      .kachestvo_title {
+        width: 160px;
+        margin-bottom: 23px;
+        font-family: Open Sans;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        color: #0a1938;
+      }
+    }
+    .kachesvo_right {
+      .kachestvo_top_text {
+        width: 360px;
+        margin-bottom: 14px;
+        font-family: Open Sans;
+        font-size: 29px;
+        font-weight: 600;
+        line-height: 29px;
+        text-align: left;
+        color: #0a1938;
+        .kachestvo_span {
+          color: #27478b;
+        }
+      }
+      .kachestvo_bottomtext {
+        width: 360px;
+        font-family: Open Sans;
+        font-size: 29px;
+        font-weight: 600;
+        line-height: 29px;
+        text-align: left;
+        color: #0a1938;
+        .kachestvo_span {
+          color: #27478b;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .kachestvo {
+    width: 335px;
+    padding: 0px 8px 0px 8px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    .kachesvo_left {
+      .kachestvo_title {
+        width: 160px;
+        margin-bottom: 23px;
+        font-family: Open Sans;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 18px;
+        text-align: left;
+        color: #0a1938;
+      }
+    }
+    .kachesvo_right {
+      .kachestvo_top_text {
+        width: 315px;
+        margin-bottom: 10px;
+        font-family: Open Sans;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 24px;
+        text-align: left;
+        color: #0a1938;
+        .kachestvo_span {
+          color: #27478b;
+        }
+      }
+      .kachestvo_bottomtext {
+        width: 320px;
+        font-family: Open Sans;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 24px;
+        text-align: left;
+        color: #0a1938;
+        .kachestvo_span {
+          color: #27478b;
+        }
+      }
+    }
+  }
+}

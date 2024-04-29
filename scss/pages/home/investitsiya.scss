@@ -1,0 +1,482 @@
+.investitsiya {
+  width: 1500px;
+  margin: 0 auto;
+  .titles_div {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    .div_title {
+      height: 27px;
+      font-family: Open Sans;
+      font-size: 27px;
+      font-weight: 400;
+      line-height: 27px;
+    }
+    .div_title_right {
+      width: 770px;
+      font-family: open Sans;
+      font-size: 44px;
+      font-weight: 600;
+      color: #0a1938;
+      .inves_span {
+        color: #27478b;
+      }
+    }
+  }
+  .invest_cards {
+    margin-top: 40px;
+    width: 1500px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 26px;
+    align-items: center;
+    justify-content: space-between;
+    .invest_card {
+      position: relative;
+      padding-left: 26px;
+      width: 482px;
+      height: 200px;
+      border-radius: 18px;
+      background: linear-gradient(
+        139.01deg,
+        rgba(39, 71, 139, 0.9) 16.99%,
+        rgba(142, 67, 220, 0.9) 105.8%
+      );
+      .number {
+        margin-top: 25px;
+        font-family: Open Sans;
+        font-size: 27px;
+        font-weight: 400;
+        line-height: 27px;
+        color: white;
+      }
+      .invest_text {
+        position: absolute;
+        bottom: 28px;
+        font-family: Open Sans;
+        font-size: 27px;
+        font-weight: 400;
+        color: white;
+        line-height: 30px;
+      }
+      .invest_img {
+        position: absolute;
+        right: 29px;
+        bottom: 28px;
+      }
+      .person_img {
+        width: 27px;
+        height: 33px;
+        position: absolute;
+        bottom: 37px;
+        right: 40px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .investitsiya {
+    width: 1125px;
+    margin: 0 auto;
+    .titles_div {
+      display: flex;
+      align-items: start;
+      justify-content: space-between;
+      .div_title {
+        height: 20px;
+        font-family: Open Sans;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 20px;
+      }
+      .div_title_right {
+        width: 580px;
+        font-family: open Sans;
+        font-size: 33px;
+        font-weight: 600;
+        line-height: 37px;
+        color: #0a1938;
+        .inves_span {
+          color: #27478b;
+        }
+      }
+    }
+    .invest_cards {
+      margin-top: 30px;
+      width: 1125px;
+      display: flex;
+      flex-wrap: wrap;
+      row-gap: 19px;
+      align-items: center;
+      justify-content: space-between;
+      .invest_card {
+        position: relative;
+        padding-left: 19px;
+        width: 361px;
+        height: 150px;
+        border-radius: 13px;
+        background: linear-gradient(
+          139.01deg,
+          rgba(39, 71, 139, 0.9) 16.99%,
+          rgba(142, 67, 220, 0.9) 105.8%
+        );
+        .number {
+          margin-top: 19px;
+          font-family: Open Sans;
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 20px;
+          color: white;
+        }
+        .invest_text {
+          position: absolute;
+          bottom: 22px;
+          font-family: Open Sans;
+          font-size: 20px;
+          font-weight: 400;
+          color: white;
+          line-height: 20px;
+        }
+        .invest_img {
+          position: absolute;
+          right: 21px;
+          bottom: 23px;
+        }
+        .person_img {
+          width: 21px;
+          height: 23px;
+          position: absolute;
+          bottom: 36px;
+          right: 34px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1020px) {
+  .investitsiya {
+    width: 797px;
+    margin: 0 auto;
+    .titles_div {
+      display: flex;
+      align-items: start;
+      justify-content: space-between;
+      .div_title {
+        height: 14px;
+        font-family: Open Sans;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 14px;
+      }
+      .div_title_right {
+        width: 405px;
+        font-family: open Sans;
+        font-size: 23px;
+        font-weight: 600;
+        line-height: 23px;
+        color: #0a1938;
+        .inves_span {
+          color: #27478b;
+        }
+      }
+    }
+    .invest_cards {
+      margin-top: 22px;
+      width: 797px;
+      display: flex;
+      flex-wrap: wrap;
+      row-gap: 13px;
+      align-items: center;
+      justify-content: space-between;
+      .invest_card {
+        position: relative;
+        padding-left: 14px;
+        width: 255px;
+        height: 106px;
+        border-radius: 10px;
+        background: linear-gradient(
+          139.01deg,
+          rgba(39, 71, 139, 0.9) 16.99%,
+          rgba(142, 67, 220, 0.9) 105.8%
+        );
+        .number {
+          margin-top: 13px;
+          font-family: Open Sans;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 14px;
+          color: white;
+        }
+        .invest_text {
+          position: absolute;
+          bottom: 16px;
+          font-family: Open Sans;
+          font-size: 14px;
+          font-weight: 400;
+          color: white;
+          line-height: 14px;
+        }
+        .invest_img {
+          position: absolute;
+          right: 5px;
+          bottom: 3px;
+        }
+        .person_img {
+          width: 21px;
+          height: 23px;
+          position: absolute;
+          bottom: 15px;
+          right: 17px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .investitsiya {
+    width: 629px;
+    margin: 0 auto;
+    .titles_div {
+      display: flex;
+      align-items: start;
+      justify-content: space-between;
+      .div_title {
+        height: 14px;
+        font-family: Open Sans;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 14px;
+      }
+      .div_title_right {
+        width: 405px;
+        font-family: open Sans;
+        font-size: 23px;
+        font-weight: 600;
+        line-height: 23px;
+        color: #0a1938;
+        .inves_span {
+          color: #27478b;
+        }
+      }
+    }
+    .invest_cards {
+      margin-top: 37px;
+      width: 629px;
+      display: flex;
+      flex-wrap: wrap;
+      row-gap: 17px;
+      align-items: center;
+      justify-content: space-between;
+      .invest_card {
+        position: relative;
+        padding-left: 14px;
+        width: 304px;
+        height: 106px;
+        border-radius: 10px;
+        background: linear-gradient(
+          139.01deg,
+          rgba(39, 71, 139, 0.9) 16.99%,
+          rgba(142, 67, 220, 0.9) 105.8%
+        );
+        .number {
+          margin-top: 16px;
+          font-family: Open Sans;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 14px;
+          color: white;
+        }
+        .invest_text {
+          position: absolute;
+          bottom: 16px;
+          font-family: Open Sans;
+          font-size: 14px;
+          font-weight: 400;
+          color: white;
+          line-height: 14px;
+        }
+        .invest_img {
+          position: absolute;
+          right: 17px;
+          bottom: 18px;
+        }
+        .person_img {
+          width: 21px;
+          height: 23px;
+          position: absolute;
+          bottom: 30px;
+          right: 29px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .investitsiya {
+    width: 380px;
+    margin: 0 auto;
+    .titles_div {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      justify-content: space-between;
+      .div_title {
+        height: 14px;
+        width: 100px;
+        font-family: Open Sans;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 20px;
+        margin-bottom: 44px;
+      }
+      .div_title_right {
+        width: 368px;
+        font-family: open Sans;
+        font-size: 29px;
+        font-weight: 600;
+        line-height: 29px;
+        color: #0a1938;
+        .inves_span {
+          color: #27478b;
+        }
+      }
+    }
+    .invest_cards {
+      margin-top: 25px;
+      width: 380px;
+      display: flex;
+      flex-wrap: wrap;
+      row-gap: 11px;
+      align-items: center;
+      justify-content: space-between;
+      .invest_card {
+        position: relative;
+        padding-left: 14px;
+        width: 379px;
+        height: 157px;
+        border-radius: 14px;
+        background: linear-gradient(
+          139.01deg,
+          rgba(39, 71, 139, 0.9) 16.99%,
+          rgba(142, 67, 220, 0.9) 105.8%
+        );
+        .number {
+          margin-top: 19px;
+          font-family: Open Sans;
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 20px;
+          color: white;
+        }
+        .invest_text {
+          position: absolute;
+          bottom: 16px;
+          font-family: Open Sans;
+          font-size: 20px;
+          font-weight: 400;
+          color: white;
+          line-height: 20px;
+        }
+        .invest_img {
+          position: absolute;
+          right: 20px;
+          bottom: 20px;
+        }
+        .person_img {
+          width: 21px;
+          height: 23px;
+          position: absolute;
+          bottom: 30px;
+          right: 32px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .investitsiya {
+    width: 335px;
+    margin: 0 auto;
+    .titles_div {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      justify-content: space-between;
+      .div_title {
+        height: 14px;
+        width: 100px;
+        font-family: Open Sans;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 20px;
+        margin-bottom: 44px;
+      }
+      .div_title_right {
+        width: 368px;
+        font-family: open Sans;
+        font-size: 26px;
+        font-weight: 600;
+        line-height: 29px;
+        color: #0a1938;
+        .inves_span {
+          color: #27478b;
+        }
+      }
+    }
+    .invest_cards {
+      margin-top: 20px;
+      width: 335px;
+      display: flex;
+      flex-wrap: wrap;
+      row-gap: 10px;
+      align-items: center;
+      justify-content: space-between;
+      .invest_card {
+        position: relative;
+        padding-left: 14px;
+        width: 335px;
+        height: 139px;
+        border-radius: 12px;
+        background: linear-gradient(
+          139.01deg,
+          rgba(39, 71, 139, 0.9) 16.99%,
+          rgba(142, 67, 220, 0.9) 105.8%
+        );
+        .number {
+          margin-top: 17px;
+          font-family: Open Sans;
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 20px;
+          color: white;
+        }
+        .invest_text {
+          position: absolute;
+          bottom: 21px;
+          font-family: Open Sans;
+          font-size: 18px;
+          font-weight: 400;
+          color: white;
+          line-height: 18px;
+        }
+        .invest_img {
+          position: absolute;
+          right: 20px;
+          bottom: 20px;
+        }
+        .person_img {
+          width: 21px;
+          height: 23px;
+          position: absolute;
+          bottom: 30px;
+          right: 32px;
+        }
+      }
+    }
+  }
+}
